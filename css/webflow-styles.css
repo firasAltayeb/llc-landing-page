@@ -2287,7 +2287,7 @@ a {
     min-height: 100vh;
     background-color: transparent;
     background-image: url(../assets/bg-hero.png), linear-gradient(#02031d, #02031d);
-    background-position: 50%, 0 0;
+    background-position: center;
     background-size: cover, auto;
     flex-direction: column;
     justify-content: center;
@@ -2358,7 +2358,8 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
-    position: relative
+    position: relative;
+    padding-top: 75px;
 }
 
 .heading {
@@ -2386,20 +2387,6 @@ a {
     line-height: 90px
 }
 
-.typed-words {
-    height: auto;
-    max-height: 91px;
-    min-height: 91px;
-    color: #fff;
-    text-align: center;
-    background-image: linear-gradient(90deg, #fff, #fff 26%, #e9516e);
-    font-family: "1095 font", sans-serif;
-    font-size: 89px;
-    font-weight: 400;
-    line-height: 91px;
-    text-decoration: none;
-    display: block
-}
 
 .s3 {
     min-height: auto;
@@ -2462,7 +2449,7 @@ a {
     border-radius: 100px;
     justify-content: center;
     align-items: center;
-    padding: 21px 25px;
+    padding: 21px 75px;
     font-size: 20px;
     line-height: 30px;
     display: flex;
@@ -5682,16 +5669,6 @@ a {
     text-align: right
 }
 
-.hero__text__wrap-copy {
-    z-index: 3;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: -96px;
-    padding-top: 143px;
-    display: flex;
-    position: relative
-}
 
 .heading-8-copy {
     max-width: 733px;
@@ -11194,10 +11171,13 @@ a {
         padding-right: 5vw
     }
 
-    .heading.gradient__text,
-    .typed-words {
+    .hero__text__wrap{
+        padding-top: 10px;
+    }
+
+    .heading.gradient__text {
         font-size: 69px;
-        line-height: 75px
+        line-height: 75px;
     }
 
     .s3 {
@@ -12875,8 +12855,8 @@ a {
         padding-right: 23px
     }
 
-    .hero__text__wrap {
-        justify-content: center
+    .hero__text__wrap{
+        padding-top: 10px;
     }
 
     .heading.gradient__text {
@@ -12884,12 +12864,6 @@ a {
         line-height: 44px
     }
 
-    .typed-words {
-        max-height: 44px;
-        min-height: 44px;
-        font-size: 36px;
-        line-height: 44px
-    }
 
     .s3 {
         padding-top: 67px
@@ -13242,10 +13216,6 @@ a {
 
     .brand {
         z-index: 5
-    }
-
-    .image-12 {
-        max-width: 173.53px
     }
 
     .heading-7 {
@@ -13872,10 +13842,6 @@ a {
     .hero__img__wrap-copy.home {
         margin-top: -6px;
         padding-top: 0
-    }
-
-    .hero__text__wrap-copy {
-        margin-top: -111px
     }
 
     .heading-8-copy {
