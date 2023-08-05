@@ -2610,7 +2610,6 @@ a {
 }
 
 .s4 {
-    min-height: 1146px;
     flex-direction: column;
     align-items: center;
     padding: 20px 5vw 142px;
@@ -3496,6 +3495,13 @@ a {
     margin-top: 90px
 }
 
+.center__side {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .left__side {
     width: 50%;
     flex-direction: column;
@@ -3653,10 +3659,10 @@ a {
 }
 
 .image-13 {
-    width: auto;
-    height: 55.125px;
+    width: 183.641px;
+    height: 59.5625px;
     object-fit: contain;
-    align-self: flex-start;
+    align-self: flex-end;
     display: inline-block;
     position: static
 }
@@ -5936,17 +5942,6 @@ a {
     margin-top: 120px
 }
 
-.left__side-copy {
-    width: 50%;
-    width: 50%;
-    width: 50%;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 0;
-    padding-left: 5em;
-    padding-right: 40px;
-    display: flex
-}
 
 .body-4 {
     background-color: #fff
@@ -6368,14 +6363,15 @@ a {
 }
 
 .div-block-38 {
-    padding-bottom: 0
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .playstorelink {
-    z-index: auto;
     width: 200px;
-    height: 55.125px;
-    position: static
+    padding-top: 15px;
 }
 
 .text-block-15 {
@@ -8363,10 +8359,6 @@ a {
     line-height: 30px
 }
 
-.text-center {
-    text-align: center
-}
-
 .content-wrapper {
     max-width: 1140px;
     justify-content: flex-start;
@@ -9976,8 +9968,8 @@ a {
     }
 
     .s4 {
+        padding-top: 0;
         height: 100%;
-        padding-top: 80px
     }
 
     .s5 {
@@ -10118,6 +10110,12 @@ a {
         flex-direction: column-reverse
     }
 
+    .center__side {
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 0
+    }
+
     .left__side {
         width: auto;
         align-items: flex-start;
@@ -10150,11 +10148,6 @@ a {
 
     .paragraph-10-copy {
         text-align: left
-    }
-
-    .image-13 {
-        width: 183.641px;
-        height: 59.5625px
     }
 
     .lottie-animation-2 {
@@ -10505,15 +10498,6 @@ a {
         display: grid
     }
 
-    .left__side-copy {
-        width: auto;
-        width: auto;
-        width: auto;
-        align-items: flex-start;
-        padding-top: 40px;
-        padding-left: 0;
-        padding-right: 0
-    }
 
     .hero__jobs__img_2-copy.is__rotating__right.jobs-page,
     .hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page,
@@ -11171,7 +11155,7 @@ a {
         padding-right: 5vw
     }
 
-    .hero__text__wrap{
+    .hero__text__wrap {
         padding-top: 10px;
     }
 
@@ -11491,6 +11475,12 @@ a {
         flex-direction: column-reverse
     }
 
+    .center__side {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0
+    }
+
     .left__side {
         align-items: center;
         padding-top: 0;
@@ -11529,12 +11519,6 @@ a {
         text-align: center;
         font-size: 36px;
         line-height: 44px
-    }
-
-    .image-13 {
-        max-width: 202.34px;
-        margin-left: auto;
-        margin-right: auto
     }
 
     .heading-8 {
@@ -11734,9 +11718,6 @@ a {
         line-height: 44px
     }
 
-    .sldei_wrap_slider2 {
-        display: flex
-    }
 
     .sldei_wrap_slider2.is-reverse {
         margin-top: 60px;
@@ -12197,12 +12178,6 @@ a {
         display: flex
     }
 
-    .left__side-copy {
-        align-items: center;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0
-    }
 
     .lottie-animation-3-copy {
         margin-bottom: 0
@@ -12855,7 +12830,7 @@ a {
         padding-right: 23px
     }
 
-    .hero__text__wrap{
+    .hero__text__wrap {
         padding-top: 10px;
     }
 
@@ -13196,12 +13171,11 @@ a {
         max-width: 90%
     }
 
-    .left__side {
+    .center__side {
         padding-top: 0
     }
 
-    .right__side.slider-bb {
-        margin-bottom: 15px;
+    .left__side {
         padding-top: 0
     }
 
@@ -13944,11 +13918,6 @@ a {
         margin-top: 50px
     }
 
-    .left__side-copy {
-        padding-top: 0;
-        display: none
-    }
-
     .lottie-animation-3-copy {
         margin-top: 3px;
         display: none
@@ -14037,17 +14006,9 @@ a {
         height: auto
     }
 
-    .div-block-38 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        display: flex
-    }
-
     .playstorelink {
         width: auto;
         height: auto;
-        padding-top: 15px
     }
 
     .text-block-15 {
