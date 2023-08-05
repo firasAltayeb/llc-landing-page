@@ -2377,7 +2377,9 @@ a {
     -webkit-background-clip: text;
     background-clip: text;
     margin-top: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: 69px;
+    line-height: 75px;
 }
 
 .bla {
@@ -2792,10 +2794,29 @@ a {
     line-height: 24px
 }
 
-.image {
-    margin-right: 12px;
-    padding-top: 0;
-    padding-bottom: 10px
+.small-image {
+    width: 75px;
+    height: auto;
+}
+
+.app-icon-image {
+    border-radius: 20px;
+    margin-bottom: 14px
+}
+
+.store-icon-image {
+    width: 183.641px;
+    height: 59.5625px;
+    object-fit: contain;
+    align-self: flex-start;
+    display: inline-block;
+}
+
+.poster-image {
+    width: 1000px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .items_wrap.holder {
@@ -2943,26 +2964,6 @@ a {
     position: relative
 }
 
-.image-2 {
-    width: 100vw;
-    height: 100%;
-    background-image: url(../fonts/background-image.svg);
-    background-position: 0 0;
-    background-size: auto;
-    display: block
-}
-
-.image-3 {
-    width: 119px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: auto;
-    bottom: -50px;
-    left: 0%;
-    right: 0%
-}
-
 .nav-menu {
     z-index: 4;
     width: 35vw;
@@ -2996,15 +2997,6 @@ a {
 
 .nav-link.early-imp {
     display: block
-}
-
-.image-4 {
-    z-index: -1;
-    position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 45%;
-    right: 0%
 }
 
 .text-span {
@@ -3138,15 +3130,6 @@ a {
     font-size: 89px
 }
 
-.image-5 {
-    width: 140px;
-    position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto
-}
-
 .lottie-animation {
     width: 100%
 }
@@ -3160,47 +3143,6 @@ a {
     padding-left: 5em;
     padding-right: 100px;
     display: flex
-}
-
-.image-6 {
-    position: absolute;
-    top: auto;
-    bottom: 6%;
-    left: 0%;
-    right: auto
-}
-
-.image-7 {
-    position: absolute;
-    top: auto;
-    bottom: 30%;
-    left: auto;
-    right: 0%
-}
-
-.image-8 {
-    position: absolute;
-    top: -45px;
-    bottom: auto;
-    left: 30%;
-    right: auto
-}
-
-.paragraph-4-copy {
-    color: #fff;
-    text-align: center;
-    max-width: 554px;
-    color: #fff;
-    text-align: center;
-    margin-top: 17px;
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px
-}
-
-.paragraph-4-copy.join-us {
-    color: #02031d
 }
 
 .paragraph-9 {
@@ -3361,16 +3303,6 @@ a {
     display: flex
 }
 
-.image-9 {
-    width: 15px;
-    margin-right: 9.26px
-}
-
-.image-10 {
-    width: 11px;
-    margin-right: 7.61px
-}
-
 .text-block-4 {
     font-size: 16px;
     line-height: 26px
@@ -3424,10 +3356,6 @@ a {
 .div-block-12 {
     align-items: flex-start;
     display: flex
-}
-
-.image-11 {
-    width: 100%
 }
 
 .slider__contaner {
@@ -3495,7 +3423,7 @@ a {
     margin-top: 90px
 }
 
-.center__side {
+.column_center {
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -3653,18 +3581,10 @@ a {
     background-clip: border-box;
     margin-top: 0;
     margin-bottom: 11px;
+    /* margin-left: 10px; */
     font-family: "1095 font", sans-serif;
     font-size: 42px;
     line-height: 49px
-}
-
-.image-13 {
-    width: 183.641px;
-    height: 59.5625px;
-    object-fit: contain;
-    align-self: flex-end;
-    display: inline-block;
-    position: static
 }
 
 .lottie-animation-2 {
@@ -3941,12 +3861,6 @@ a {
     display: flex
 }
 
-.image-14 {
-    height: 70vh;
-    direction: ltr;
-    order: 1
-}
-
 .process-card-wrap {
     width: 100%;
     max-width: 1216px;
@@ -4177,16 +4091,6 @@ a {
     color: #fff
 }
 
-.image-20 {
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: auto;
-    bottom: -50px;
-    left: 0%;
-    right: 0%
-}
-
 .explore-jobs-section {
     min-height: auto;
     flex-direction: row;
@@ -4309,13 +4213,6 @@ a {
 .sldei_wrap_slider2.is-reverse {
     flex-direction: row-reverse;
     margin-top: 120px
-}
-
-.image-21,
-.image-22,
-.image-23,
-.image-24 {
-    display: none
 }
 
 .heading-17.homepage_17 {
@@ -4590,10 +4487,6 @@ a {
     padding-bottom: 104px
 }
 
-.image-25 {
-    padding-left: 3px
-}
-
 .footer-07 {
     color: #02031d;
     background-color: #02031d;
@@ -4699,15 +4592,6 @@ a {
 .bold-text {
     font-size: 20px;
     line-height: 24px
-}
-
-.image-26 {
-    border-radius: 20px;
-    margin-bottom: 14px
-}
-
-.image-27 {
-    margin-bottom: 14px
 }
 
 .div-block-25 {
@@ -4880,12 +4764,6 @@ a {
 .form-copy {
     margin-top: 40px;
     position: relative
-}
-
-.image-28 {
-    border-radius: 20px;
-    margin-bottom: 23px;
-    box-shadow: 1px 1px 3px #000
 }
 
 .text-field-copy {
@@ -5269,26 +5147,6 @@ a {
     padding-bottom: 115px
 }
 
-.image-29 {
-    padding-bottom: 7px
-}
-
-.image-7-copy {
-    position: absolute;
-    top: auto;
-    bottom: 6%;
-    left: auto;
-    right: 0%
-}
-
-.img__5__hero-copy {
-    position: absolute;
-    top: 89%;
-    bottom: 0%;
-    left: auto;
-    right: 3%
-}
-
 .div-block-30 {
     text-align: center;
     padding-top: 38px
@@ -5332,10 +5190,6 @@ a {
     justify-content: flex-start;
     align-items: center;
     display: flex
-}
-
-.image-29-copy {
-    padding-bottom: 7px
 }
 
 .quote-masta-copy {
@@ -5526,11 +5380,6 @@ a {
     bottom: -120%;
     left: -20%;
     right: auto
-}
-
-.image-28-copy {
-    border-radius: 20px;
-    margin-bottom: 23px
 }
 
 .btn__form-copy-copy-copy {
@@ -5952,11 +5801,6 @@ a {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif
 }
 
-.image-33 {
-    text-align: center;
-    display: inline-block
-}
-
 .field-label-2 {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif
 }
@@ -5976,19 +5820,9 @@ a {
     padding: 23px 32px
 }
 
-.image-28-copy-copy {
-    border-radius: 20px;
-    margin-bottom: 23px
-}
-
 .lottie-animation-3-copy {
     max-height: 672px;
     margin-bottom: 84px
-}
-
-.image-34,
-.image-35 {
-    display: none
 }
 
 .working-at-codeway-copy {
@@ -6209,10 +6043,6 @@ a {
     line-height: 90px
 }
 
-.image-36-copy {
-    display: none
-}
-
 .text-span-8 {
     color: #ff8585
 }
@@ -6338,11 +6168,6 @@ a {
     font-family: Open Sans, sans-serif
 }
 
-.image-39 {
-    border-radius: 20px;
-    margin-top: 61px
-}
-
 .div-block-37 {
     padding-top: 57px
 }
@@ -6370,7 +6195,8 @@ a {
 }
 
 .playstorelink {
-    width: 200px;
+    width: auto;
+    height: auto;
     padding-top: 15px;
 }
 
@@ -6383,11 +6209,6 @@ a {
     color: rgba(68, 74, 92, 0);
     border: 1px solid transparent;
     padding-bottom: 60px
-}
-
-.image-40 {
-    text-align: center;
-    font-size: 5px
 }
 
 .link-2 {
@@ -6425,10 +6246,6 @@ a {
     color: #fff
 }
 
-.image-41 {
-    padding-bottom: 42px
-}
-
 .text-span-9 {
     color: #e28181;
     text-decoration: underline
@@ -6436,10 +6253,6 @@ a {
 
 .link-5 {
     color: #e28181
-}
-
-.image-42 {
-    padding-right: 20px
 }
 
 .frame {
@@ -6462,14 +6275,6 @@ a {
 
 .left-align-text.last {
     margin-bottom: 0
-}
-
-.image-43 {
-    position: absolute;
-    top: 10%;
-    bottom: auto;
-    left: auto;
-    right: 5%
 }
 
 .footer {
@@ -6788,10 +6593,6 @@ a {
     display: none
 }
 
-.image-45 {
-    width: auto
-}
-
 .newgrad {
     position: static
 }
@@ -6982,13 +6783,6 @@ a {
     background-image: none
 }
 
-.image-46 {
-    max-width: 60%;
-    color: #a5173f;
-    text-align: left;
-    margin-left: 0
-}
-
 .link-block-5 {
     margin-top: 40px;
     padding-top: 20px;
@@ -7052,11 +6846,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     display: flex
-}
-
-.image-47 {
-    position: relative;
-    right: 0
 }
 
 .logo-2 {
@@ -7179,12 +6968,6 @@ a {
     padding-bottom: 100px
 }
 
-.image-49 {
-    width: 100%;
-    max-width: none;
-    flex: 0 auto
-}
-
 .paragraph-16 {
     min-height: 100px;
     float: left;
@@ -7276,10 +7059,6 @@ a {
     align-items: flex-start;
     padding: 5% 5% 25%;
     position: relative
-}
-
-.image-50 {
-    text-align: right
 }
 
 .cta {
@@ -7421,13 +7200,6 @@ a {
     transform: none
 }
 
-.image-52 {
-    align-self: flex-start;
-    margin-top: 20px;
-    margin-right: 0;
-    padding: 5px 10px
-}
-
 .experience-image {
     width: auto;
     max-width: 100%;
@@ -7473,17 +7245,6 @@ a {
 
 .paperplanes-early-impact.paper-position {
     display: none
-}
-
-.image-54 {
-    width: 40%;
-    margin-bottom: 20px;
-    padding-bottom: 0
-}
-
-.image-54.the-one-title {
-    width: 40%;
-    margin-top: 100px
 }
 
 .background-video-2 {
@@ -7994,11 +7755,6 @@ a {
     padding-top: 5%
 }
 
-.image-55 {
-    width: 100%;
-    display: none
-}
-
 .link-block-9 {
     align-items: center;
     display: flex
@@ -8073,13 +7829,6 @@ a {
     text-decoration: underline
 }
 
-.image-28-copy {
-    border-radius: 20px;
-    margin-bottom: 23px;
-    overflow: hidden;
-    box-shadow: 1px 1px 3px #000
-}
-
 .text-block-9-copy {
     color: #fff;
     text-align: center;
@@ -8143,10 +7892,6 @@ a {
     background-image: linear-gradient(#02031d, #02031d);
     justify-content: flex-start;
     padding-top: 50px
-}
-
-.image-56 {
-    padding-bottom: 35px
 }
 
 .btn-copy-copy {
@@ -8466,32 +8211,6 @@ a {
     color: rgba(68, 74, 92, 0)
 }
 
-.image-58 {
-    max-height: 16vh;
-    max-width: none
-}
-
-.image-58.support-image {
-    margin-top: 10px
-}
-
-.image-59 {
-    max-height: 16vh;
-    max-width: none
-}
-
-.image-59.support-image {
-    max-height: 14vh;
-    margin-top: 10px
-}
-
-.image-59.akut {
-    max-height: 10vh;
-    max-width: 80%;
-    margin-top: 40px;
-    margin-bottom: 34px
-}
-
 .oxfam {
     max-height: 16vh;
     max-width: none
@@ -8518,15 +8237,6 @@ a {
 .section-8 {
     background-color: #02031d;
     padding-top: 120px
-}
-
-.image-62 {
-    max-height: 4vh;
-    max-width: 80%
-}
-
-.image-62.support-page {
-    max-height: 8vh
 }
 
 .support-box {
@@ -8597,11 +8307,6 @@ a {
     padding-right: 20px;
     font-family: "1095 font", sans-serif;
     font-size: 20px
-}
-
-.image-63,
-.image-64 {
-    max-height: 7vh
 }
 
 .academies-container {
@@ -8953,10 +8658,6 @@ a {
     display: grid
 }
 
-.image-65 {
-    line-height: 0
-}
-
 .collection-item-2 {
     max-height: 400px
 }
@@ -9115,10 +8816,6 @@ a {
 
 .academy-subtitle {
     font-size: 1em
-}
-
-.image-66 {
-    max-width: 60px
 }
 
 .collection-list-3 {
@@ -9873,10 +9570,6 @@ a {
         height: 100vh
     }
 
-    .image-64 {
-        max-height: 5vh
-    }
-
     .academies-container {
         object-fit: contain;
         margin-left: auto;
@@ -10039,11 +9732,6 @@ a {
         width: 45vw
     }
 
-    .image-4 {
-        top: -40px;
-        left: 30%
-    }
-
     .img__1__hero.is__rotating__right {
         display: none
     }
@@ -10108,12 +9796,6 @@ a {
     .sldei_wrap.nr2.is-reverse,
     .sldei_wrap.nr3.is-reverse {
         flex-direction: column-reverse
-    }
-
-    .center__side {
-        padding-top: 40px;
-        padding-left: 0;
-        padding-right: 0
     }
 
     .left__side {
@@ -10188,11 +9870,6 @@ a {
         width: 60%
     }
 
-    .image-14 {
-        width: 70%;
-        height: auto
-    }
-
     .lottie-animation-5 {
         width: 60%
     }
@@ -10225,13 +9902,6 @@ a {
 
     .mobile-img {
         display: block
-    }
-
-    .image-15,
-    .image-16,
-    .image-17,
-    .image-18 {
-        display: none
     }
 
     .heading-12 {
@@ -10357,19 +10027,6 @@ a {
         display: block
     }
 
-    .image-29 {
-        margin-left: 60px;
-        padding-bottom: 35px
-    }
-
-    .image-7-copy {
-        bottom: 10%
-    }
-
-    .img__5__hero-copy {
-        right: -20%
-    }
-
     .section-5-copy.orange,
     .section-5-copy.orange-copy {
         background-image: url(../assets/605893d07148e526ec8233c8_BG-Blockquote.jpg)
@@ -10378,12 +10035,6 @@ a {
     .div-block-28-copy {
         display: block
     }
-
-    .image-29-copy {
-        margin-left: 60px;
-        padding-bottom: 31px
-    }
-
     .paragra {
         line-height: 32px
     }
@@ -10522,10 +10173,6 @@ a {
     .s7_join__us-copy.jobs_join,
     .s7_join__us-copy.jobs_join-copy {
         margin-bottom: -41px
-    }
-
-    .playstorelink {
-        padding-top: 11px
     }
 
     .frame {
@@ -11159,11 +10806,6 @@ a {
         padding-top: 10px;
     }
 
-    .heading.gradient__text {
-        font-size: 69px;
-        line-height: 75px;
-    }
-
     .s3 {
         padding-bottom: 53px
     }
@@ -11338,11 +10980,6 @@ a {
         width: 45vw
     }
 
-    .image-4 {
-        max-width: 300px;
-        left: 30%
-    }
-
     .img__1__hero.is__rotating__right {
         max-width: 77px;
         display: none
@@ -11395,10 +11032,6 @@ a {
         width: auto;
         padding-left: 40px;
         padding-right: 40px
-    }
-
-    .image-6 {
-        display: none
     }
 
     .paragraph-4-copy {
@@ -11455,10 +11088,6 @@ a {
         align-items: center
     }
 
-    .image-11 {
-        max-width: 70%
-    }
-
     .slider__contaner {
         margin-top: 0
     }
@@ -11473,12 +11102,6 @@ a {
 
     .sldei_wrap.nr3.is-reverse {
         flex-direction: column-reverse
-    }
-
-    .center__side {
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0
     }
 
     .left__side {
@@ -11516,7 +11139,6 @@ a {
     }
 
     .heading-6-copy {
-        text-align: center;
         font-size: 36px;
         line-height: 44px
     }
@@ -11642,17 +11264,6 @@ a {
         display: block
     }
 
-    .image-15,
-    .image-16,
-    .image-17,
-    .image-18 {
-        display: none
-    }
-
-    .image-19 {
-        object-fit: contain
-    }
-
     .heading-11 {
         font-size: 36px;
         line-height: 44px
@@ -11724,32 +11335,16 @@ a {
         display: flex
     }
 
-    .image-21 {
-        display: block
-    }
-
     .lottie-animation-6 {
         display: flex
-    }
-
-    .image-22 {
-        display: block
     }
 
     .lottie-animation-7 {
         display: flex
     }
 
-    .image-23 {
-        display: block
-    }
-
     .lottie-animation-8 {
         display: flex
-    }
-
-    .image-24 {
-        display: block
     }
 
     .lottie-animation-9 {
@@ -11985,11 +11580,6 @@ a {
         padding-right: 10px
     }
 
-    .image-29 {
-        margin-left: 0;
-        padding-bottom: 25px
-    }
-
     .section-5-copy {
         padding-left: 15px;
         padding-right: 15px
@@ -12000,11 +11590,6 @@ a {
         text-align: center;
         background-color: #02031d;
         background-image: none
-    }
-
-    .image-29-copy {
-        margin-left: 0;
-        padding-bottom: 25px
     }
 
     .quote-masta-copy,
@@ -12183,11 +11768,6 @@ a {
         margin-bottom: 0
     }
 
-    .image-34 {
-        padding-bottom: 30px;
-        display: block
-    }
-
     .working-at-codeway-copy {
         padding-top: 50px;
         padding-bottom: 50px
@@ -12248,26 +11828,11 @@ a {
         line-height: 44px
     }
 
-    .image-36,
-    .image-37 {
-        display: none
-    }
-
-    .image-36-copy {
-        padding-bottom: 31px;
-        display: block
-    }
-
     .div-block-33 {
         text-align: center;
         background-color: #f7f7f9;
         justify-content: center;
         display: flex
-    }
-
-    .image-38 {
-        padding-top: 26px;
-        padding-bottom: 18px
     }
 
     .link {
@@ -12455,11 +12020,6 @@ a {
 
     .mini-title.type2 {
         margin-top: 40px
-    }
-
-    .image-54.the-one-title {
-        width: 80vw;
-        max-width: none
     }
 
     .h3-mobile {
@@ -12770,10 +12330,6 @@ a {
         display: inline-block
     }
 
-    .image-66 {
-        max-width: 40px
-    }
-
     .collection-list-3 {
         max-width: 90%;
         grid-template-columns: 1fr
@@ -12800,7 +12356,6 @@ a {
     }
 
     .hero {
-        padding-top: 206px;
         padding-bottom: 137px;
         overflow: hidden
     }
@@ -12833,12 +12388,6 @@ a {
     .hero__text__wrap {
         padding-top: 10px;
     }
-
-    .heading.gradient__text {
-        font-size: 36px;
-        line-height: 44px
-    }
-
 
     .s3 {
         padding-top: 67px
@@ -13014,32 +12563,7 @@ a {
         min-height: 350px;
         background-position: 0%
     }
-
-    .image-3 {
-        max-width: 119px;
-        padding-top: 0;
-        bottom: -55px
-    }
-
-    .image-4 {
-        max-width: 300px;
-        top: -40px;
-        left: 10%
-    }
-
-    .img__1__hero.is__rotating__right {
-        max-width: 77px;
-        display: block;
-        top: auto;
-        bottom: 0%;
-        left: 30%;
-        right: auto
-    }
-
-    .img__2__hero.is__rotating__left {
-        display: none
-    }
-
+    
     .hero__img__wrap {
         margin-top: 34px
     }
@@ -13167,14 +12691,6 @@ a {
         align-items: stretch
     }
 
-    .image-11 {
-        max-width: 90%
-    }
-
-    .center__side {
-        padding-top: 0
-    }
-
     .left__side {
         padding-top: 0
     }
@@ -13242,11 +12758,6 @@ a {
     .lottie-animation-4 {
         width: 90%;
         max-width: 90%
-    }
-
-    .image-14 {
-        width: 80%;
-        display: none
     }
 
     .lottie-animation-5 {
@@ -13603,19 +13114,6 @@ a {
         padding-top: 115px
     }
 
-    .image-29 {
-        margin-bottom: 28px
-    }
-
-    .image-7-copy {
-        bottom: 4%
-    }
-
-    .img__5__hero-copy {
-        top: 20%;
-        right: -40%
-    }
-
     .div-block-30 {
         text-align: center;
         padding-top: 30px
@@ -13633,10 +13131,6 @@ a {
 
     .div-block-28-copy {
         display: block
-    }
-
-    .image-29-copy {
-        margin-bottom: 28px
     }
 
     .quote-masta-copy {
@@ -13680,12 +13174,6 @@ a {
         text-align: center
     }
 
-    .image-30 {
-        border-radius: 14px;
-        margin-top: 88px;
-        padding-top: 0
-    }
-
     .link-block {
         margin-top: 42px
     }
@@ -13727,17 +13215,6 @@ a {
     .arrow-cta {
         bottom: -148%;
         left: 11%
-    }
-
-    .image-31 {
-        width: 100vw;
-        min-width: 100%;
-        margin-top: 28px;
-        margin-bottom: 61px
-    }
-
-    .image-32 {
-        margin-bottom: 61px
     }
 
     .div-block-31 {
@@ -13923,16 +13400,6 @@ a {
         display: none
     }
 
-    .image-34 {
-        padding-bottom: 21px;
-        display: block
-    }
-
-    .image-35 {
-        padding-bottom: 17px;
-        display: block
-    }
-
     .working-at-codeway-copy.whatsinitforyou,
     .working-at-codeway-copy.whatsinitforyou-copy {
         padding-top: 0;
@@ -13961,27 +13428,8 @@ a {
         display: none
     }
 
-    .heading-8-copy {
-        max-width: none;
-        margin-top: -64px;
-        margin-bottom: 21px;
-        font-size: 40px;
-        line-height: 55px
-    }
-
     .bold-text-4 {
         font-weight: 500
-    }
-
-    .image-36,
-    .image-37,
-    .image-36-copy {
-        display: none
-    }
-
-    .image-38 {
-        padding-top: 0;
-        padding-bottom: 72px
     }
 
     .div-block-29-copy {
@@ -14006,19 +13454,8 @@ a {
         height: auto
     }
 
-    .playstorelink {
-        width: auto;
-        height: auto;
-    }
-
     .text-block-15 {
         text-align: center
-    }
-
-    .image-42 {
-        width: 15%;
-        padding-left: 10px;
-        padding-right: 10px
     }
 
     .frame {
@@ -14031,20 +13468,12 @@ a {
         text-align: left
     }
 
-    .image-43 {
-        top: 5%
-    }
-
     .footer {
         background-position: 50%;
         background-size: cover;
         margin-bottom: 0;
         padding-top: 10%;
         overflow: hidden
-    }
-
-    .image-44 {
-        width: 10%
     }
 
     .h2 {
@@ -14240,11 +13669,6 @@ a {
         margin-top: 20px
     }
 
-    .image-45 {
-        width: 10%;
-        max-width: 60%
-    }
-
     .newgrad {
         margin-top: -100px;
         overflow: hidden
@@ -14361,10 +13785,6 @@ a {
         margin-top: 20px
     }
 
-    .image-48 {
-        width: 15%
-    }
-
     .text-container {
         font-size: 16px
     }
@@ -14462,11 +13882,6 @@ a {
         overflow: visible
     }
 
-    .image-50 {
-        width: 10%;
-        padding-bottom: 10px
-    }
-
     .cta {
         max-width: none;
         margin-bottom: 20px;
@@ -14550,11 +13965,6 @@ a {
 
     .paperplanes-early-impact.paper-position {
         display: none
-    }
-
-    .image-54 {
-        margin-top: 40px;
-        margin-bottom: 40px
     }
 
     .mini-title-mobile {
@@ -14894,10 +14304,6 @@ a {
         justify-content: flex-start;
         padding-top: 55px;
         padding-bottom: 50px
-    }
-
-    .image-56 {
-        padding-bottom: 31px
     }
 
     .btn-copy-copy {
