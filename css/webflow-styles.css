@@ -453,7 +453,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 0px
 }
 
 blockquote {
@@ -762,6 +762,12 @@ textarea.w-select {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto
+}
+
+
+.logo-container {
+    justify-content: space-between;
+    display: flex;
 }
 
 .w-container:before,
@@ -2611,6 +2617,7 @@ a {
 .small-image {
     width: 75px;
     height: auto;
+    display: inline-block;
 }
 
 .app-icon-image {
@@ -2763,8 +2770,6 @@ a {
     color: white;
     justify-content: center;
     align-items: center;
-    padding-left: 48px;
-    padding-right: 48px;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -9547,11 +9552,6 @@ a {
         margin-right: 0px;
         padding-left: 0px;
         padding-right: 10px;
-    }
-
-    .text__hero {
-        padding-left: 0px;
-        padding-right: 0px;
     }
 
     .s1-hero {
