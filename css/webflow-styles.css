@@ -1994,7 +1994,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
-    padding: 7vw 5vw;
+    padding: 5vw 5vw;
     display: flex;
     position: relative
 }
@@ -2046,6 +2046,19 @@ a {
     padding-right: 60px;
     display: flex;
     position: absolute
+}
+
+.navbar-2 {
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
 }
 
 .hero_wrap {
@@ -4267,7 +4280,7 @@ a {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto
 }
@@ -4332,7 +4345,9 @@ a {
 .body-2 {
     margin: 0;
     padding: 0;
-    background: linear-gradient(#02031d, #02031d)
+    background-image: url(../assets/bg-hero.png), linear-gradient(#02031d, #02031d);
+    background-position: center;
+    background-size: cover, auto;
 }
 
 .heading-2-copy {
@@ -9425,12 +9440,6 @@ a {
         padding-bottom: 40px
     }
 
-    .navbar {
-        padding-top: 25px;
-        padding-left: 15px;
-        padding-right: 15px
-    }
-
     .s3 {
         padding-top: 67px
     }
@@ -11601,6 +11610,10 @@ a {
 }
 
 @media screen and (max-width:767px) {
+    .hero__text__wrap {
+        padding-top: 0px;
+    }
+
     .small-image {
         width: 60px;
     }
@@ -11613,7 +11626,7 @@ a {
     }
 
     .hero {
-        padding-top: 152px;
+        padding-top: 150px;
         padding-bottom: 100px
     }
 
@@ -11639,7 +11652,11 @@ a {
     }
 
     .navbar {
-        padding-top: 25px;
+        padding-left: 5vw;
+        padding-right: 5vw
+    }
+
+    .navbar-2 {
         padding-left: 5vw;
         padding-right: 5vw
     }
@@ -13231,10 +13248,6 @@ a {
         right: auto
     }
 
-    .hero__text__wrap {
-        padding-top: 0px;
-    }
-
     .hero.is__jobs {
         padding-top: 161px
     }
@@ -13250,11 +13263,6 @@ a {
     .s2 {
         background-position: 50% 120%;
         padding-bottom: 150px
-    }
-
-    .navbar {
-        padding-top: 25px;
-        padding-bottom: 25px
     }
 
     .s3 {
