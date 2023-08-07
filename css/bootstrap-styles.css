@@ -13519,6 +13519,10 @@ html {
 	background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
 
+.envelope-bg{
+	background: linear-gradient(249deg, #e9516e, #f2957e);
+}
+
 .text-gradient {
 	background: linear-gradient(270deg, #e9516e, #6a1a21);
 	-webkit-text-fill-color: transparent;
