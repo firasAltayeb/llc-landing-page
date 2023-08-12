@@ -313,7 +313,7 @@ html.w-mod-touch * {
     background-color: #3898ec;
     border: 0;
     border-radius: 0;
-    padding: 9px 15px;
+    padding: 10px 15px;
     text-decoration: none;
     display: inline-block
 }
@@ -1985,18 +1985,17 @@ a {
 }
 
 .hero {
-    min-height: 100vh;
     background-color: transparent;
     background-image: url(../assets/bg-hero.png), linear-gradient(#02031d, #02031d);
     background-position: center;
     background-size: cover, auto;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 0;
+    position: relative;
+    min-height: 100vh;
     padding: 5vw 5vw;
     display: flex;
-    position: relative
 }
 
 .hero.is__jobs {
@@ -2093,7 +2092,7 @@ a {
     background-clip: text;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 69px;
+    font-size: 70px;
     line-height: 75px;
 }
 
@@ -2661,7 +2660,7 @@ a {
 
 .text__hero {
     z-index: 2;
-    height: 67px;
+    height: 65px;
     color: white;
     justify-content: center;
     align-items: center;
@@ -2678,6 +2677,12 @@ a {
     background-clip: text;
     text-decoration: none;
     color: transparent;
+}
+
+.inline-top-pad {
+    position: relative;
+    margin-top: 30px;
+    bottom: 10px;
 }
 
 .s1-hero {
@@ -8567,13 +8572,12 @@ a {
     color: #a51840
 }
 
-@media screen and (min-width:425px) {
+
+@media screen and (min-width:768px) {
     .w-button {
         margin-top: 50px;
     }
-}
-
-@media screen and (min-width:768px) {
+    
     .w-lightbox-content {
         height: 96vh;
         margin-top: 2vh
@@ -9416,8 +9420,7 @@ a {
     }
 
     .hero {
-        min-height: 100vh;
-        padding-bottom: 137px;
+        min-height: 90vh;
         overflow: hidden
     }
 
@@ -11610,6 +11613,10 @@ a {
 }
 
 @media screen and (max-width:767px) {
+    .hide-on-large {
+        display: none;
+    }
+
     .hero__text__wrap {
         padding-top: 0px;
     }
@@ -11626,7 +11633,7 @@ a {
     }
 
     .hero {
-        padding-top: 150px;
+        padding-top: 125px;
         padding-bottom: 100px
     }
 
@@ -13178,6 +13185,12 @@ a {
 
     .link-block-10 {
         width: 40px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar {
+        padding-top: 10px;
     }
 }
 
