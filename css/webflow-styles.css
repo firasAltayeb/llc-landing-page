@@ -2158,6 +2158,10 @@ a {
     background-color: #af5858
 }
 
+.theme-bg{
+	background: linear-gradient(249deg, #e9516e, #f2957e);
+}
+
 .btn {
     width: auto;
     height: auto;
@@ -2165,7 +2169,7 @@ a {
     border-radius: 100px;
     justify-content: center;
     align-items: center;
-    padding: 21px 75px;
+    padding: 20px 75px;
     font-size: 20px;
     line-height: 30px;
     display: flex;
@@ -8577,7 +8581,7 @@ a {
     .w-button {
         margin-top: 50px;
     }
-    
+
     .w-lightbox-content {
         height: 96vh;
         margin-top: 2vh
@@ -11613,7 +11617,7 @@ a {
 }
 
 @media screen and (max-width:767px) {
-    .hide-on-large {
+    .hide-on-small {
         display: none;
     }
 
@@ -13190,6 +13194,10 @@ a {
 
 @media screen and (max-width:768px) {
     .navbar {
+        padding-top: 10px;
+    }
+
+    .navbar-2 {
         padding-top: 10px;
     }
 }
