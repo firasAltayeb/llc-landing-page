@@ -1876,13 +1876,18 @@ textarea.w-select {
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate(0)
+    from {
+        transform: rotate(0deg)
     }
 
     to {
         transform: rotate(360deg)
     }
+}
+
+.rotate-animation {
+    animation: spin 10s linear infinite;
+    /* Adjust the animation duration and timing function as needed */
 }
 
 .w-dyn-empty {
@@ -1992,7 +1997,6 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: relative;
     min-height: 100vh;
     padding: 5vw 5vw;
     display: flex;
@@ -2516,6 +2520,20 @@ a {
     width: 75px;
     height: auto;
     display: inline-block;
+}
+
+.bg-left-effect {
+    position: absolute;
+    width: 17.5vw;
+    top: 22.5vw;
+    right: 3vw;
+}
+
+.bg-right-effect {
+    position: absolute;
+    width: 17.5vw;
+    top: 10vw;
+    left: 3vw;
 }
 
 .app-icon-image {
