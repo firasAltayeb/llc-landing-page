@@ -1885,9 +1885,22 @@ textarea.w-select {
     }
 }
 
+@keyframes shrink {
+    from {
+        transform: scaleX(1);
+    }
+
+    to {
+        transform: scaleX(0.9);
+    }
+}
+
 .rotate-animation {
     animation: spin 10s linear infinite;
-    /* Adjust the animation duration and timing function as needed */
+}
+
+.shrink-animation {
+    animation: shrink 10s linear infinite;
 }
 
 .w-dyn-empty {
@@ -1990,10 +2003,7 @@ a {
 }
 
 .hero {
-    background-color: transparent;
-    background-image: url(../assets/bg-hero.png), linear-gradient(#02031d, #02031d);
-    background-position: center;
-    background-size: cover, auto;
+    background: linear-gradient(#02031d, #02031d);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -2015,13 +2025,6 @@ a {
     background-color: #02031d;
     background-image: none;
     padding-bottom: 25px
-}
-
-.hero.is__jobs-copy {
-    min-height: auto;
-    background-image: linear-gradient(#02031d, #02031d);
-    justify-content: flex-start;
-    padding-top: 180px
 }
 
 .s2 {
@@ -2071,13 +2074,13 @@ a {
 }
 
 .hero__text__wrap {
-    z-index: 3;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    display: flex;
     position: relative;
     padding-top: 75px;
+    display: flex;
+    z-index: 3;
 }
 
 .heading {
@@ -2522,18 +2525,23 @@ a {
     display: inline-block;
 }
 
+.hero-image {
+    position: absolute;
+    min-width: 150vh;
+}
+
 .bg-left-effect {
     position: absolute;
-    width: 17.5vw;
-    top: 22.5vw;
-    right: 3vw;
+    width: 30vw;
+    right: -10vw;
+    top: 25vw;
 }
 
 .bg-right-effect {
     position: absolute;
-    width: 17.5vw;
-    top: 10vw;
-    left: 3vw;
+    width: 30vw;
+    left: -10vw;
+    top: 75vw;
 }
 
 .app-icon-image {
@@ -2766,14 +2774,6 @@ a {
     bottom: auto;
     left: 0%;
     right: 0%
-}
-
-.img__1__hero.is__rotate__right {
-    top: 0%
-}
-
-.img__1__hero.is__rotating__right {
-    top: 2%
 }
 
 .img__2__hero {
@@ -8596,6 +8596,22 @@ a {
 
 
 @media screen and (min-width:768px) {
+    .hero-image {
+        min-width: 200vh;
+    }
+
+    .bg-left-effect {
+        width: 17.5vw;
+        top: 22.5vw;
+        right: 3vw;
+    }
+
+    .bg-right-effect {
+        width: 17.5vw;
+        top: 10vw;
+        left: 3vw;
+    }
+
     .w-button {
         margin-top: 50px;
     }
@@ -9443,7 +9459,7 @@ a {
 
     .hero {
         min-height: 90vh;
-        overflow: hidden
+        /* overflow: hidden */
     }
 
     .hero.is__jobs {
