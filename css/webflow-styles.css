@@ -2532,15 +2532,15 @@ a {
 
 .bg-left-effect {
     position: absolute;
-    width: 30vw;
-    right: -10vw;
+    left: -12.5vw;
+    width: 35vw;
     top: 25vw;
 }
 
 .bg-right-effect {
     position: absolute;
+    right: -7.5vw;
     width: 30vw;
-    left: -10vw;
     top: 75vw;
 }
 
@@ -8601,15 +8601,15 @@ a {
     }
 
     .bg-left-effect {
-        width: 17.5vw;
-        top: 22.5vw;
-        right: 3vw;
+        left: -5vw;
+        width: 30vw;
+        top: 25vw;
     }
-
+    
     .bg-right-effect {
-        width: 17.5vw;
-        top: 10vw;
-        left: 3vw;
+        right: -5vw;
+        width: 25vw;
+        top: 45vw;
     }
 
     .w-button {
@@ -8657,14 +8657,33 @@ a {
     }
 }
 
-@media screen and (min-width:1280px) {
-    .s7_join__us_early.jobs_join.early {
-        align-items: center
+@media screen and (min-width:1024px) {
+    .bg-left-effect {
+        width: 25vw;
+        top: 45vw;
+        left: -5vw;
     }
+    
+    .bg-right-effect {
+        width: 20vw;
+        top: 15.5vw;
+        right: 0vw;
 
-    .h5.ai {
-        background-position: 75%;
-        background-size: 90%
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .bg-left-effect {
+        width: 20vw;
+        top: 22.5vw;
+        left: 0vw;
+    }
+    
+    .bg-right-effect {
+        width: 17.5vw;
+        top: 7.5vw;
+        right: 0vw;
+
     }
 
     .horizontal {
