@@ -2539,7 +2539,7 @@ a {
 
 .bg-right-effect {
     position: absolute;
-    right: -7.5vw;
+    right: -12.5vw;
     width: 30vw;
     top: 75vw;
 }
@@ -4377,26 +4377,6 @@ a {
     background-size: cover, auto;
 }
 
-.heading-2-copy {
-    color: #fff;
-    padding-top: 0;
-    padding-bottom: 10px
-}
-
-.heading-2-copy.hp {
-    padding-top: 0;
-    padding-bottom: 20px
-}
-
-.heading-2-copy.contact-us-page-copy {
-    padding-top: 10px
-}
-
-.heading-2-copy.contact-us-page-copy.faq {
-    margin-top: 30px;
-    margin-bottom: 40px
-}
-
 .div-block-copy {
     width: 100%;
     max-width: 749px;
@@ -5308,28 +5288,6 @@ a {
     font-family: "1095 font", sans-serif;
     font-size: 74px;
     line-height: 90px
-}
-
-.heading-2-copy {
-    color: #fff;
-    padding-top: 0;
-    padding-bottom: 10px
-}
-
-.heading-2-copy.hp {
-    padding-top: 0;
-    padding-bottom: 20px
-}
-
-.heading-2-copy-copy {
-    color: #fff;
-    padding-top: 0;
-    padding-bottom: 10px
-}
-
-.heading-2-copy-copy.hp {
-    padding-top: 0;
-    padding-bottom: 20px
 }
 
 .heading-8-copy-copy-copy {
@@ -7029,33 +6987,6 @@ a {
     display: none
 }
 
-.hero-2 {
-    max-width: none;
-    text-align: center;
-    object-fit: fill;
-    background-image: url(../assets/629491909237f95530cd8b11_BG.png), url(../fonts/629491909237f91740cd8b2e_AI-Academy-Logo-BG.svg);
-    background-position: 0 0, 50% 15%;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, auto;
-    background-attachment: scroll, scroll;
-    align-items: flex-start;
-    margin-top: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: Poppins, sans-serif;
-    text-decoration: none;
-    display: flex
-}
-
-.hero-2.choose-hero {
-    background-image: url(../assets/629491909237f95530cd8b11_BG.png);
-    background-position: 0 0;
-    background-repeat: repeat;
-    background-size: auto;
-    background-attachment: scroll;
-    padding-bottom: 300px
-}
-
 .the-one {
     text-align: center;
     background-color: #0b1934;
@@ -7778,36 +7709,6 @@ a {
     padding-top: 25px;
     padding-bottom: 25px;
     display: none
-}
-
-.heading-2-copy-copy {
-    color: #fff;
-    padding-top: 0;
-    padding-bottom: 10px
-}
-
-.heading-2-copy-copy.hp {
-    padding-top: 0;
-    padding-bottom: 20px
-}
-
-.heading-2-copy-copy.contact-us-page-copy {
-    padding-top: 10px
-}
-
-.heading-2-copy-copy.contact-us-page-copy.faq {
-    margin-top: 30px;
-    margin-bottom: 40px
-}
-
-.heading-2-copy-copy.contact-us-page-copy-copy {
-    padding-top: 10px
-}
-
-.heading-2-copy-copy.contact-us-page-copy-copy.faq,
-.heading-2-copy-copy.contact-us-page-copy-copy.faq-copy {
-    margin-top: 30px;
-    margin-bottom: 40px
 }
 
 .accordion-wrapper {
@@ -8601,13 +8502,13 @@ a {
     }
 
     .bg-left-effect {
-        left: -5vw;
+        left: -7.5vw;
         width: 30vw;
         top: 25vw;
     }
-    
+
     .bg-right-effect {
-        right: -5vw;
+        right: -7.5vw;
         width: 25vw;
         top: 45vw;
     }
@@ -8659,15 +8560,15 @@ a {
 
 @media screen and (min-width:1024px) {
     .bg-left-effect {
-        width: 25vw;
-        top: 45vw;
-        left: -5vw;
+        width: 30vw;
+        top: 42.5vw;
+        left: -10vw;
     }
-    
+
     .bg-right-effect {
-        width: 20vw;
+        width: 25vw;
         top: 15.5vw;
-        right: 0vw;
+        right: -8vw;
 
     }
 }
@@ -8678,9 +8579,9 @@ a {
         top: 22.5vw;
         left: 0vw;
     }
-    
+
     .bg-right-effect {
-        width: 17.5vw;
+        width: 20vw;
         top: 7.5vw;
         right: 0vw;
 
@@ -9219,20 +9120,6 @@ a {
         max-width: 1920px
     }
 
-    .hero-2 {
-        width: 100%;
-        height: 100%;
-        object-fit: fill;
-        background-image: url(../assets/629491909237f95530cd8b11_BG.png), url(../fonts/629491909237f91740cd8b2e_AI-Academy-Logo-BG.svg);
-        background-position: 0 0, 50% 15%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, auto;
-        background-attachment: scroll, scroll;
-        margin-left: auto;
-        margin-right: auto;
-        position: static
-    }
-
     .the-one {
         padding-top: 0
     }
@@ -9478,7 +9365,7 @@ a {
 
     .hero {
         min-height: 90vh;
-        /* overflow: hidden */
+        overflow: hidden
     }
 
     .hero.is__jobs {
@@ -10028,27 +9915,6 @@ a {
         margin-left: 0
     }
 
-    .heading-2-copy {
-        padding-top: 10px;
-        padding-bottom: 20px
-    }
-
-    .heading-2-copy.contact-us-page {
-        font-size: 45px;
-        line-height: 65px
-    }
-
-    .heading-2-copy.contact-us-page-copy {
-        background-image: linear-gradient(270deg, #78d1f4, #fff);
-        padding-bottom: 10px;
-        font-size: 40px;
-        line-height: 50px
-    }
-
-    .heading-2-copy.contact-us-page-copy.faq {
-        margin-top: 40px
-    }
-
     .div-block-copy.contac-us-page,
     .div-block-copy.contac-us-page-copy {
         padding-top: 0
@@ -10418,34 +10284,6 @@ a {
         margin-bottom: 21px;
         font-size: 44px;
         line-height: 60px
-    }
-
-    .heading-2-copy {
-        padding-top: 10px;
-        padding-bottom: 20px
-    }
-
-    .heading-2-copy.contact-us-page,
-    .heading-2-copy.contact-us-page-copy,
-    .heading-2-copy.contact-us-page-copy-copy {
-        font-size: 45px;
-        line-height: 65px
-    }
-
-    .heading-2-copy-copy {
-        padding-top: 10px;
-        padding-bottom: 20px
-    }
-
-    .heading-2-copy-copy.contact-us-page,
-    .heading-2-copy-copy.contact-us-page-copy {
-        font-size: 45px;
-        line-height: 65px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy-copy {
-        font-size: 45px;
-        line-height: 55px
     }
 
     .heading-8-copy-copy-copy {
@@ -11076,20 +10914,6 @@ a {
         display: none
     }
 
-    .hero-2 {
-        max-width: 100%;
-        background-image: url(../assets/629491909237f95530cd8b11_BG.png), url(../fonts/629491909237f91740cd8b2e_AI-Academy-Logo-BG.svg), radial-gradient(circle, #a5173f 64%, #701637);
-        background-position: 0 0, 50% 15%, 0 0;
-        background-repeat: repeat, no-repeat, repeat;
-        background-size: auto, auto, auto;
-        background-attachment: scroll, scroll, scroll;
-        overflow: hidden
-    }
-
-    .hero-2.choose-hero {
-        padding-bottom: 100px
-    }
-
     .the-one {
         opacity: 1;
         background-image: linear-gradient(transparent, #701637);
@@ -11477,44 +11301,6 @@ a {
     .hero-copy-copy.contant_us_page-copy-copy {
         min-height: auto;
         padding: 25px 5px 36px
-    }
-
-    .heading-2-copy-copy {
-        padding-top: 10px;
-        padding-bottom: 20px
-    }
-
-    .heading-2-copy-copy.contact-us-page {
-        font-size: 45px;
-        line-height: 65px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy {
-        background-image: linear-gradient(270deg, #78d1f4, #fff);
-        padding-bottom: 10px;
-        font-size: 40px;
-        line-height: 50px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy.faq {
-        margin-top: 40px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy-copy {
-        background-image: linear-gradient(270deg, #78d1f4, #fff);
-        padding-bottom: 10px;
-        font-size: 40px;
-        line-height: 50px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy-copy.faq {
-        margin-top: 40px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy-copy.faq-copy {
-        margin-top: 40px;
-        font-size: 30px;
-        line-height: 40px
     }
 
     .header-center-box._75 {
@@ -12350,31 +12136,6 @@ a {
         width: auto
     }
 
-    .heading-2-copy {
-        font-size: 42px;
-        line-height: 48px
-    }
-
-    .heading-2-copy.contact-us-page {
-        text-shadow: none;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(270deg, #e9516e, #fff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-size: 56px;
-        line-height: 50px
-    }
-
-    .heading-2-copy.contact-us-page-copy {
-        text-shadow: none;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(270deg, #78d1f4, #fff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-size: 56px;
-        line-height: 50px
-    }
-
     .div-block-copy.contac-us-page,
     .div-block-copy.contac-us-page-copy {
         z-index: 9
@@ -12559,40 +12320,6 @@ a {
         margin-bottom: 11px;
         font-size: 36px;
         line-height: 44px
-    }
-
-    .heading-2-copy {
-        font-size: 42px;
-        line-height: 48px
-    }
-
-    .heading-2-copy.contact-us-page,
-    .heading-2-copy.contact-us-page-copy,
-    .heading-2-copy.contact-us-page-copy-copy {
-        text-shadow: none;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(270deg, #e9516e, #fff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-size: 56px;
-        line-height: 50px
-    }
-
-    .heading-2-copy-copy {
-        font-size: 42px;
-        line-height: 48px
-    }
-
-    .heading-2-copy-copy.contact-us-page,
-    .heading-2-copy-copy.contact-us-page-copy,
-    .heading-2-copy-copy.contact-us-page-copy-copy {
-        text-shadow: none;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(270deg, #e9516e, #fff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-size: 56px;
-        line-height: 50px
     }
 
     .heading-8-copy-copy-copy {
@@ -13070,32 +12797,6 @@ a {
     .hero-copy-copy.contant_us_page-copy-copy {
         padding-top: 40px;
         padding-bottom: 14px
-    }
-
-    .heading-2-copy-copy {
-        font-size: 42px;
-        line-height: 48px
-    }
-
-    .heading-2-copy-copy.contact-us-page {
-        text-shadow: none;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(270deg, #e9516e, #fff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-size: 56px;
-        line-height: 50px
-    }
-
-    .heading-2-copy-copy.contact-us-page-copy,
-    .heading-2-copy-copy.contact-us-page-copy-copy {
-        text-shadow: none;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(270deg, #78d1f4, #fff);
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-size: 56px;
-        line-height: 50px
     }
 
     .accordion-item-content-2 {
@@ -14174,17 +13875,6 @@ a {
 
     .background-video-2.play-video-preview {
         display: none
-    }
-
-    .hero-2 {
-        text-align: center;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    .hero-2.choose-hero {
-        padding-bottom: 100px
     }
 
     .the-one {
