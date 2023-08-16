@@ -449,7 +449,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
 
 blockquote {
@@ -5026,15 +5026,6 @@ a {
     display: flex
 }
 
-.container-3 {
-    width: 100%;
-    max-width: 1140px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex
-}
-
 .faq-grid {
     width: 100%;
     grid-template-columns: 1fr 3fr
@@ -6275,11 +6266,6 @@ a {
     right: auto
 }
 
-.container-22 {
-    object-fit: fill;
-    padding-top: 10%
-}
-
 .why2 {
     margin-top: 0
 }
@@ -6423,15 +6409,6 @@ a {
 
 .s1_video {
     background-image: linear-gradient(#a5173f, #701637)
-}
-
-.container-7 {
-    max-width: 1260px;
-    min-height: 60px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: block
 }
 
 .menu {
@@ -6812,10 +6789,6 @@ a {
 
 .cta.cta-red:hover {
     background-color: #a51840
-}
-
-.container-20 {
-    max-width: none
 }
 
 .team {
@@ -7653,11 +7626,6 @@ a {
     font-weight: 500
 }
 
-.container-23 {
-    object-fit: contain;
-    overflow: visible
-}
-
 .text-span-18 {
     font-size: 25px
 }
@@ -7799,18 +7767,6 @@ a {
 
 .button_support.sup-btn {
     display: none
-}
-
-.container-24 {
-    max-height: 2000px;
-    max-width: 3000px;
-    background-color: #f7f7f7;
-    border-radius: 14px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    box-shadow: 0 2px 25px -6px rgba(209, 209, 209, .65)
 }
 
 .unicef {
@@ -8972,10 +8928,6 @@ a {
         padding-top: 0%
     }
 
-    .container-22 {
-        max-width: 100%
-    }
-
     .newgrad {
         position: static
     }
@@ -10038,12 +9990,6 @@ a {
         line-height: 22px
     }
 
-    .container-2 {
-        padding-bottom: 39px;
-        padding-left: 8px;
-        padding-right: 8px
-    }
-
     .div-block-27 {
         display: block
     }
@@ -10593,15 +10539,6 @@ a {
     .link-block-3 {
         text-align: center;
         display: block
-    }
-
-    .container-22 {
-        max-width: 90vw;
-        background-image: url(../fonts/629491919237f94077cd8b42_ai-bg.svg);
-        background-position: 0%;
-        background-repeat: no-repeat;
-        background-size: 110%;
-        position: relative
     }
 
     .why2 {
@@ -13664,10 +13601,6 @@ a {
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto
-    }
-
-    .container-22 {
-        position: relative
     }
 
     .why2 {
