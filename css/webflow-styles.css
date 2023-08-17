@@ -1784,7 +1784,6 @@ textarea.w-select {
     float: right;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    tap-highlight-color: transparent;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -2532,16 +2531,30 @@ a {
 
 .bg-left-effect {
     position: absolute;
-    left: -12.5vw;
     width: 35vw;
-    top: 25vw;
+    top: 75vw;
+    left: -10vw;
+}
+
+.bg-left-effect-2 {
+    position: absolute;
+    width: 35vw;
+    top: 1150vw;
+    left: -10vw;
 }
 
 .bg-right-effect {
     position: absolute;
-    right: -12.5vw;
-    width: 30vw;
-    top: 75vw;
+    width: 35vw;
+    top: 25vw;
+    right: -10vw;
+}
+
+.bg-right-effect-2 {
+    position: absolute;
+    width: 35vw;
+    top: 1200vw;
+    right: -10vw;
 }
 
 .app-icon-image {
@@ -4310,6 +4323,24 @@ a {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto
+}
+
+.container-2 {
+    width: 100%;
+    max-width: 750px;
+    min-height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.container-3 {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    word-wrap: break-word;
 }
 
 .logo {
@@ -8453,20 +8484,32 @@ a {
 
 
 @media screen and (min-width:768px) {
-    .hero-image {
-        min-width: 200vh;
+    .bg-left-effect {
+        width: 25vw;
+        top: 30vw;
+        left: -7.5vw;
     }
 
-    .bg-left-effect {
+    .bg-left-effect-2 {
+        width: 25vw;
+        top: 325vw;
         left: -7.5vw;
-        width: 30vw;
-        top: 25vw;
     }
 
     .bg-right-effect {
-        right: -7.5vw;
         width: 25vw;
-        top: 45vw;
+        top: 10vw;
+        right: -7.5vw;
+    }
+
+    .bg-right-effect-2 {
+        width: 25vw;
+        top: 350vw;
+        right: -7.5vw;
+    }
+
+    .hero-image {
+        min-width: 200vh;
     }
 
     .w-button {
@@ -8516,16 +8559,27 @@ a {
 
 @media screen and (min-width:1024px) {
     .bg-left-effect {
-        width: 30vw;
-        top: 42.5vw;
-        left: -10vw;
+        width: 25vw;
+        top: 35vw;
+        left: -7.5vw;
+    }
+
+    .bg-left-effect-2 {
+        width: 25vw;
+        top: 175vw;
+        left: -7.5vw;
     }
 
     .bg-right-effect {
         width: 25vw;
-        top: 15.5vw;
-        right: -8vw;
+        top: 10vw;
+        right: -7.5vw;
+    }
 
+    .bg-right-effect-2 {
+        width: 25vw;
+        top: 200vw;
+        right: -7.5vw;
     }
 }
 
@@ -8536,11 +8590,22 @@ a {
         left: 0vw;
     }
 
+    .bg-left-effect-2 {
+        width: 20vw;
+        top: 120vw;
+        left: 0vw;
+    }
+
     .bg-right-effect {
         width: 20vw;
         top: 7.5vw;
         right: 0vw;
+    }
 
+    .bg-right-effect-2 {
+        width: 20vw;
+        top: 145vw;
+        right: 0vw;
     }
 
     .horizontal {
