@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'AdamFontLight';
+    src: url('../assets/fonts/Adam-Light.ttf') format('embedded-opentype'),
+        /* Internet Explorer */
+        url('../assets/fonts/Adam-Light.ttf') format('woff2'),
+        /* Super Modern Browsers */
+        url('../assets/fonts/Adam-Light.ttf') format('woff'),
+        /* Pretty Modern Browsers */
+        url('../assets/fonts/Adam-Light.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../assets/fonts/Adam-Light.ttf') format('svg');
+}
+
+@font-face {
+    font-family: 'AdamFontMedium';
+    src: url('../assets/fonts/Adam-Medium.ttf') format('embedded-opentype'),
+        url('../assets/fonts/Adam-Medium.ttf') format('woff2'),
+        url('../assets/fonts/Adam-Medium.ttf') format('woff'),
+        url('../assets/fonts/Adam-Medium.ttf') format('truetype'),
+        url('../assets/fonts/Adam-Medium.ttf') format('svg');
+}
+
+@font-face {
+    font-family: 'AdamFontBold';
+    src: url('../assets/fonts/Adam-Bold.ttf') format('embedded-opentype'),
+        url('../assets/fonts/Adam-Bold.ttf') format('woff2'),
+        url('../assets/fonts/Adam-Bold.ttf') format('woff'),
+        url('../assets/fonts/Adam-Bold.ttf') format('truetype'),
+        url('../assets/fonts/Adam-Bold.ttf') format('svg');
+}
+
+.custom-header-light {
+    font-family: 'AdamFontLight', sans-serif;
+    color: white;
+}
+
+.custom-header-medium {
+    font-family: 'AdamFontMedium', sans-serif;
+    color: white;
+}
+
+.custom-header-bold {
+    font-family: 'AdamFontBold', sans-serif;
+    color: white;
+}

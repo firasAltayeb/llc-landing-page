@@ -2357,24 +2357,6 @@ a {
     padding-top: 131px
 }
 
-.grid_wrap {
-    width: 100%;
-    max-width: 1072px;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    background-image: url(../assets/6003416b0aa4a84e0dbfbe34_x-line.png);
-    background-position: 50%;
-    background-size: auto;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 1fr;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    display: grid
-}
-
 .grid_card {
     height: 100%;
     max-width: 433px;
@@ -2532,7 +2514,7 @@ a {
 .bg-left-effect {
     position: absolute;
     width: 35vw;
-    top: 75vw;
+    top: 60vw;
     left: -10vw;
 }
 
@@ -2546,7 +2528,7 @@ a {
 .bg-right-effect {
     position: absolute;
     width: 35vw;
-    top: 25vw;
+    top: 20vw;
     right: -10vw;
 }
 
@@ -2704,11 +2686,9 @@ a {
 .text__hero {
     z-index: 2;
     height: 65px;
-    color: white;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    font-weight: 500;
     text-decoration: none;
     position: relative;
     display: flex;
@@ -3212,12 +3192,6 @@ a {
     justify-content: center;
     align-items: center;
     display: flex
-}
-
-.right__side.slider-bb {
-    background-image: url(../assets/6003416b0aa4a89f9dbfbe5e_slider.bg-2.png);
-    background-position: 0 0;
-    background-size: auto
 }
 
 .paragraph-4-copy {
@@ -3839,19 +3813,6 @@ a {
     display: none
 }
 
-.jobs-hero {
-    min-height: 600px;
-    background-image: url(../assets/6003416b0aa4a8b9febfbe52_jobs-bg-2.png);
-    background-position: 0 0;
-    background-size: auto;
-    justify-content: center;
-    align-items: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: flex;
-    position: relative
-}
-
 .heading-13 {
     color: #fff
 }
@@ -3912,20 +3873,6 @@ a {
     color: #4e4f61;
     font-size: 16px;
     line-height: 25px
-}
-
-.open-position-hero {
-    min-height: 600px;
-    background-image: url(../assets/6003416b0aa4a8bb1cbfbe5a_opej-position-posit-2.png);
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-size: 100vw 100%;
-    justify-content: center;
-    align-items: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: flex;
-    position: relative
 }
 
 .heading-15 {
@@ -4462,22 +4409,6 @@ a {
 .hero__img__wrap-copy.contact-us-page-copy {
     z-index: 5;
     text-align: right
-}
-
-.hero-copy {
-    min-height: 100vh;
-    background-color: transparent;
-    background-image: url(../assets/6003416b0aa4a81540bfbe38_bg-hero.png), linear-gradient(#02031d, #02031d);
-    background-position: 50%, 0 0;
-    background-size: cover, auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: flex;
-    position: relative
 }
 
 .hero-copy.is__jobs {
@@ -5994,19 +5925,6 @@ a {
     margin-bottom: 0
 }
 
-.footer {
-    width: 100vw;
-    height: 100%;
-    min-height: 70vh;
-    text-align: center;
-    background-image: url(../assets/629491909237f93616cd8b1c_Footer-BG.png);
-    background-position: 50% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto 140px;
-    display: none
-}
-
 .h2 {
     text-shadow: 4px 4px #000;
     margin-top: 0;
@@ -6197,22 +6115,6 @@ a {
     text-align: center
 }
 
-.s10_doing {
-    background-image: url(../assets/629491909237f98766cd8b27_What-You-Will-Do-BG.png);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 0
-}
-
-.s10_doing.type2 {
-    color: #fff;
-    background-color: #f5f5f5;
-    background-image: none;
-    background-repeat: repeat;
-    background-size: auto
-}
-
 .footer-container {
     max-width: 1260px;
     text-align: right;
@@ -6246,18 +6148,6 @@ a {
     padding-left: 0;
     padding-right: 0;
     display: flex
-}
-
-.div-block-42 {
-    z-index: auto;
-    width: 100vw;
-    height: 100vh;
-    background-color: #a5173f;
-    background-image: url(../assets/629491909237f95530cd8b11_BG.png);
-    background-size: auto;
-    background-attachment: scroll;
-    position: -webkit-sticky;
-    position: sticky
 }
 
 .boost {
@@ -6341,19 +6231,6 @@ a {
 
 .s3-2 {
     background-image: linear-gradient(#a5173f, #701637)
-}
-
-.s3-2.rocketship {
-    width: 100%;
-    background-image: url(../assets/647f9c1efa3d90fc486c0ee1_RocketshipGrey.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    padding-top: 20%;
-    display: flex
 }
 
 .s3-2.rocketship.type2 {
@@ -6506,12 +6383,6 @@ a {
 .left-align-paragraph {
     color: #f1947b;
     text-align: left
-}
-
-.s8_experience {
-    background-image: url(../assets/629491909237f95530cd8b11_BG.png), linear-gradient(#a5173f, #701637);
-    background-position: 0 0, 0 0;
-    background-size: auto, auto
 }
 
 .hero-link {
@@ -6872,13 +6743,6 @@ a {
     background-size: auto
 }
 
-.s7_ai-means.type2 {
-    background-color: transparent;
-    background-image: url(../assets/629491909237f98766cd8b27_What-You-Will-Do-BG.png);
-    background-position: 0 0;
-    background-size: cover;
-    display: none
-}
 
 .h1 {
     height: auto;
@@ -6959,12 +6823,6 @@ a {
     left: 0%;
     right: 0%;
     overflow: visible
-}
-
-.background-video-2:hover {
-    background-image: url(../assets/629491919237f967efcd8b37_video-cover.png);
-    background-position: 50%;
-    background-size: auto
 }
 
 .background-video-2.mobile,
@@ -7097,17 +6955,6 @@ a {
     font-family: Avengeance mightiest avenger, sans-serif
 }
 
-.why-early-impact {
-    background-image: url(../assets/629491909237f91aebcd8b19_Why-BG.png);
-    background-position: 50%;
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-attachment: scroll;
-    margin-top: 0;
-    margin-bottom: 40px;
-    padding-top: 0
-}
-
 .why-early-impact.type2 {
     background-image: none
 }
@@ -7122,18 +6969,6 @@ a {
 .scroll-arrow:hover {
     margin-bottom: 0;
     padding-bottom: 0
-}
-
-.body-7 {
-    color: #fff;
-    background-color: #a51840;
-    background-image: url(../assets/6294918d466a223d38ae5a3c_BG.png);
-    background-position: 0 0;
-    background-size: auto;
-    font-family: Poppins, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    overflow: visible
 }
 
 .h1-copy {
@@ -7523,22 +7358,6 @@ a {
     overflow: visible
 }
 
-.hero-copy {
-    min-height: 100vh;
-    background-color: transparent;
-    background-image: url(../assets/6003416b0aa4a81540bfbe38_bg-hero.png), linear-gradient(#02031d, #02031d);
-    background-position: 50%, 0 0;
-    background-size: cover, auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: flex;
-    position: relative
-}
-
 .hero-copy.is__jobs {
     min-height: auto;
     background-image: linear-gradient(#02031d, #02031d);
@@ -7659,28 +7478,6 @@ a {
 
 .text-span-18 {
     font-size: 25px
-}
-
-.hero-copy-copy {
-    min-height: 100vh;
-    background-color: transparent;
-    background-image: url(../assets/6003416b0aa4a81540bfbe38_bg-hero.png), linear-gradient(#02031d, #02031d);
-    background-position: 50%, 0 0;
-    background-size: cover, auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: flex;
-    position: relative
-}
-
-.hero-copy-copy.is__jobs {
-    min-height: auto;
-    justify-content: flex-start;
-    padding-top: 180px
 }
 
 .hero-copy-copy.contant_us_page {
@@ -8794,12 +8591,6 @@ a {
         display: none
     }
 
-    .s3-2 {
-        background-image: url(../assets/629491909237f95530cd8b11_BG.png), linear-gradient(#a5173f, #701637);
-        background-position: 0 0, 0 0;
-        background-size: auto, auto
-    }
-
     .codeway-presents {
         font-size: 24px;
         line-height: 24px
@@ -8810,13 +8601,6 @@ a {
         flex-direction: column;
         justify-content: center;
         display: flex
-    }
-
-    .s1_video,
-    .s6-2 {
-        background-image: url(../assets/629491909237f95530cd8b11_BG.png), linear-gradient(#a5173f, #701637);
-        background-position: 0 0, 0 0;
-        background-size: auto, auto
     }
 
     .s9_bring {
@@ -8857,13 +8641,6 @@ a {
 
     .plane-1 {
         min-height: 20vh
-    }
-
-    .why-early-impact {
-        background-image: url(../assets/629491909237f91aebcd8b19_Why-BG.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: auto
     }
 
     .h1-copy {
@@ -8973,16 +8750,6 @@ a {
         width: 80%;
         background-position: 65% 40%;
         background-size: 80%
-    }
-
-    .s10_doing {
-        min-height: 100vh;
-        background-image: url(../assets/629491909237f98766cd8b27_What-You-Will-Do-BG.png), linear-gradient(#a5173f, #701637);
-        background-position: 50% 0, 0 0;
-        background-repeat: no-repeat, repeat;
-        background-size: cover, auto;
-        position: relative;
-        top: 0
     }
 
     .footer-container {
@@ -9160,12 +8927,6 @@ a {
 
     .scroll-arrow {
         display: inline-block
-    }
-
-    .body-7 {
-        background-image: url(../assets/6294918d466a223d38ae5a3c_BG.png);
-        background-position: 0 0;
-        background-size: auto
     }
 
     .h1-copy {
@@ -10509,19 +10270,7 @@ a {
         padding-right: 5%;
         font-size: 1.5rem
     }
-
-    .h5.why {
-        min-height: 40vh;
-        background-image: url(../assets/629491909237f91aebcd8b19_Why-BG.png);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-top: auto;
-        padding-top: 0%;
-        font-size: 1.5rem;
-        display: flex
-    }
-
+    
     .h5.why.type2 {
         min-height: 0;
         background-image: none;
@@ -11088,18 +10837,6 @@ a {
         font-size: 1.5rem
     }
 
-    .h3-copy.why {
-        min-height: 40vh;
-        background-image: url(../assets/629491909237f91aebcd8b19_Why-BG.png);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-top: auto;
-        padding-top: 0%;
-        font-size: 1.5rem;
-        display: flex
-    }
-
     .h3-copy.what-ai-means {
         margin-top: 100px;
         padding-top: 0%
@@ -11149,18 +10886,6 @@ a {
         font-size: 1.5rem
     }
 
-    .h3-copy.why {
-        min-height: 40vh;
-        background-image: url(../assets/629491909237f91aebcd8b19_Why-BG.png);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-top: auto;
-        padding-top: 0%;
-        font-size: 1.5rem;
-        display: flex
-    }
-
     .h3-copy.what-ai-means {
         margin-top: 100px;
         padding-top: 0%
@@ -11179,13 +10904,6 @@ a {
 
     .text-block-18 {
         padding-top: 25px
-    }
-
-    .masterphd {
-        background-image: url(../assets/6298e6fdb97005845a886e9c_bg-master.png);
-        background-repeat: no-repeat;
-        background-size: auto;
-        padding-top: 5%
     }
 
     .track-mobile {
@@ -13420,21 +13138,12 @@ a {
         padding-right: 20px
     }
 
-    .section-5.orange {
-        background-image: url(../assets/605893d07148e526ec8233c8_BG-Blockquote.jpg)
-    }
-
     .quote {
         width: 84%
     }
 
     .div-block-28 {
         display: block
-    }
-
-    .section-5-copy.orange,
-    .section-5-copy.orange-copy {
-        background-image: url(../assets/605893d07148e526ec8233c8_BG-Blockquote.jpg)
     }
 
     .div-block-28-copy {
@@ -13647,17 +13356,6 @@ a {
 
     .horizontal.reverse {
         flex-direction: column-reverse
-    }
-
-    .div-block-42 {
-        height: 100vh;
-        background-image: url(../assets/629491909237f95530cd8b11_BG.png);
-        background-position: 40% 0;
-        background-repeat: repeat;
-        background-size: auto;
-        background-attachment: scroll;
-        margin-top: 0;
-        padding-top: 0
     }
 
     .boost {
