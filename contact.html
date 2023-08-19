@@ -40,20 +40,18 @@
                         <form id="contactForm" action="process_form.php" method="post">
                             <div class="form-floating mb-3">
                                 <label for="name" class="fs-6">Name</label>
-                                <input class="form-control" id="name" type="text" name="name" required>
+                                <input class="form-control" id="name" type="text" name="name">
                                 <span class="invalid-feedback" id="nameError"></span>
                             </div>
                             <div class="form-floating mb-3">
                                 <label for="email" class="fs-6">Email address</label>
-                                <input class="form-control" id="email" type="email" name="email" required>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is
-                                    required.</div>
+                                <input class="form-control" id="email" type="email" name="email">
                                 <span class="invalid-feedback" id="emailError"></span>
                             </div>
                             <div class="form-floating mb-3">
                                 <label for="message" class="fs-6">Message</label>
-                                <textarea class="form-control" id="message" name="message" style="height: 10rem"
-                                    required></textarea>
+                                <textarea class="form-control" id="message" name="message"
+                                    style="height: 10rem"></textarea>
                                 <span class="invalid-feedback" id="messageError"></span>
                             </div>
                             <!-- <div class="d-none" id="submitSuccessMessage">
