@@ -48,10 +48,17 @@ document.getElementById("contactForm").addEventListener("submit", async function
         });
 
         if (response.ok) {
-            const successMessage = await response.text();
-            alert(successMessage);
-            form.reset();
-            clearErrorMessages();
+            // form.reset();
+            const successMessageTxt = await response.text();
+            const submitMessage = document.getElementById(`submitMessage`);
+            const submitButton = document.getElementById(`submitButton`);
+            if (submitMessage) {
+                submitMessage.style.display = "block";          
+                submitMessage.textContent = successMessageTxt
+            }
+            if (submitButton) {
+                submitButton.style.display = "none";            
+            }
         } else {
             const errorData = await response.json();
             displayErrorMessages(errorData.errors);
@@ -114,6 +121,10 @@ function displayLabel(fieldName) {
         label.style.display = "block";
     }
 }
+
+document.getElementById("contactForm").addEventListener("reset", function() {
+    clearErrorMessages();
+});
 
 function clearErrorMessages() {
     const errorSpans = document.querySelectorAll(".error");
