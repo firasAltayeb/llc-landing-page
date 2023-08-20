@@ -2521,7 +2521,7 @@ a {
 .bg-left-effect-2 {
     position: absolute;
     width: 35vw;
-    top: 1150vw;
+    top: 1050vw;
     left: -10vw;
 }
 
@@ -2535,7 +2535,7 @@ a {
 .bg-right-effect-2 {
     position: absolute;
     width: 35vw;
-    top: 1200vw;
+    top: 1150vw;
     right: -10vw;
 }
 
@@ -8401,7 +8401,7 @@ a {
 
     .bg-right-effect-2 {
         width: 20vw;
-        top: 145vw;
+        top: 140vw;
         right: 0vw;
     }
 
