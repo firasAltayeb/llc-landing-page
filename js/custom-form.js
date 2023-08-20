@@ -1,3 +1,37 @@
+document.getElementById("name").addEventListener("focus", function() {
+    clearErrorAndLabel("name");
+});
+
+document.getElementById("name").addEventListener("blur", function() {
+    const input = document.getElementById("name");
+    if (!input.value.trim()) {
+        displayLabel("name");
+    }
+});
+
+document.getElementById("email").addEventListener("focus", function() {
+    clearErrorAndLabel("email");
+});
+
+document.getElementById("email").addEventListener("blur", function() {
+    const input = document.getElementById("email");
+    if (!input.value.trim()) {
+        displayLabel("email");
+    }
+});
+
+document.getElementById("message").addEventListener("focus", function() {
+    clearErrorAndLabel("message");
+});
+
+document.getElementById("message").addEventListener("blur", function() {
+    const input = document.getElementById("message");
+    if (!input.value.trim()) {
+        displayLabel("message");
+    }
+});
+
+
 document.getElementById("contactForm").addEventListener("submit", async function (event) {
     event.preventDefault();
     console.log("Form submission initiated.");
@@ -46,7 +80,6 @@ function validateForm(formData) {
     if (!message.trim()) {
         errors["message"] = "Message is required.";
     }
-    console.log("Validation errors:", errors);
     return errors;
 }
 
@@ -58,10 +91,27 @@ function isValidEmail(email) {
 function displayErrorMessages(errors) {
     for (const fieldName in errors) {
         const errorSpan = document.getElementById(`${fieldName}Error`);
-        console.log("Validation errors:", errorSpan);
         if (errorSpan) {
             errorSpan.textContent = errors[fieldName];
         }
+    }
+}
+
+function clearErrorAndLabel(fieldName) {
+    const errorSpan = document.getElementById(`${fieldName}Error`);
+    const label = document.querySelector(`label[for=${fieldName}]`);
+    if (errorSpan) {
+        errorSpan.textContent = "";
+    }
+    if (label) {
+        label.style.display = "none";
+    }
+}
+
+function displayLabel(fieldName) {
+    const label = document.querySelector(`label[for=${fieldName}]`);
+    if (label) {
+        label.style.display = "block";
     }
 }
 
@@ -69,5 +119,10 @@ function clearErrorMessages() {
     const errorSpans = document.querySelectorAll(".error");
     errorSpans.forEach(span => {
         span.textContent = "";
+    });
+
+    const labels = document.querySelectorAll("label");
+    labels.forEach(label => {
+        label.style.display = "block";
     });
 }
