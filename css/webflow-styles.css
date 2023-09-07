@@ -90,10 +90,6 @@ sub {
     bottom: -.25em
 }
 
-img {
-    border: 0
-}
-
 svg:not(:root) {
     overflow: hidden
 }
@@ -273,6 +269,7 @@ body {
 }
 
 img {
+    border: 0;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block
@@ -2756,97 +2753,6 @@ a {
 
 .text-span {
     color: #fff
-}
-
-.img__1__hero {
-    z-index: 2;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: 10%;
-    bottom: auto;
-    left: 0%;
-    right: 0%
-}
-
-.img__2__hero {
-    max-width: 123px;
-    position: absolute;
-    top: 25%;
-    bottom: 0%;
-    left: 0%;
-    right: auto
-}
-
-.hero__img__wrap {
-    z-index: 2;
-    width: auto;
-    height: auto;
-    flex: 0 auto;
-    padding-left: 5vw;
-    padding-right: 0;
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 5vw;
-    left: 5vw;
-    right: 5vw
-}
-
-.hero__img__wrap.contact-us-page {
-    z-index: 5;
-    text-align: right
-}
-
-.img__3__hero {
-    position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 7%;
-    right: auto
-}
-
-.img__4__hero {
-    position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 7%
-}
-
-.img__4__hero.is__rotating__right {
-    max-width: 151px
-}
-
-.img__6__hero {
-    position: absolute
-}
-
-.img__6__hero.is__rotating__right.contact-us-page {
-    top: 7%;
-    bottom: auto;
-    left: -5%;
-    right: auto
-}
-
-.img__6__hero.is__rotating__right.is-jobs-page {
-    top: 10%
-}
-
-.img__5__hero {
-    position: absolute;
-    top: 40%;
-    bottom: 0%;
-    left: auto;
-    right: -5%
-}
-
-.img__7__hero {
-    position: absolute;
-    top: 22%;
-    bottom: auto;
-    left: auto;
-    right: 0%
 }
 
 .headimg-2 {
