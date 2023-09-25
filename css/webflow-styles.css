@@ -1881,6 +1881,15 @@ textarea.w-select {
     }
 }
 
+@keyframes spin-anti {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(-360deg); 
+    }
+  }
+
 @keyframes shrink {
     from {
         transform: scaleX(1);
@@ -1893,6 +1902,10 @@ textarea.w-select {
 
 .rotate-animation {
     animation: spin 10s linear infinite;
+}
+
+.rotate-animation-acw {
+    animation: spin-anti 10s linear infinite;
 }
 
 .shrink-animation {
