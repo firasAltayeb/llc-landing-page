@@ -1883,12 +1883,13 @@ textarea.w-select {
 
 @keyframes spin-anti {
     from {
-      transform: rotate(0deg); 
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(-360deg); 
+        transform: rotate(-360deg);
     }
-  }
+}
 
 @keyframes shrink {
     from {
@@ -2516,7 +2517,7 @@ a {
     display: inline-block;
 }
 
-.hero-image {
+.hero-bottom-image {
     position: absolute;
     min-width: 150vh;
 }
@@ -2524,28 +2525,28 @@ a {
 .bg-left-effect {
     position: absolute;
     width: 35vw;
-    top: 60vw;
+    top: 42.5vh;
     left: -10vw;
 }
 
 .bg-left-effect-2 {
     position: absolute;
     width: 35vw;
-    top: 1050vw;
+    top: 600vh;
     left: -10vw;
 }
 
 .bg-right-effect {
     position: absolute;
     width: 35vw;
-    top: 20vw;
+    top: 10vh;
     right: -10vw;
 }
 
 .bg-right-effect-2 {
     position: absolute;
     width: 35vw;
-    top: 1150vw;
+    top: 650vh;
     right: -10vw;
 }
 
@@ -8224,7 +8225,7 @@ a {
         right: -7.5vw;
     }
 
-    .hero-image {
+    .hero-bottom-image {
         min-width: 200vh;
     }
 
@@ -8980,6 +8981,10 @@ a {
 }
 
 @media screen and (max-width:479px) {
+    .hero-bottom-image {
+        padding-top: 2rem;
+    }
+
     .w-container {
         max-width: none
     }
@@ -10189,7 +10194,7 @@ a {
         padding-right: 5%;
         font-size: 1.5rem
     }
-    
+
     .h5.why.type2 {
         min-height: 0;
         background-image: none;
@@ -11100,6 +11105,7 @@ a {
     }
 
     .hero__text__wrap {
+        padding-bottom: 20px;
         padding-top: 0px;
     }
 
@@ -13819,17 +13825,6 @@ a {
 
 #w-node-d1e168b7-6189-8df9-116e-24afd178af51-54589379 {
     grid-area: span 1/span 2/span 1/span 2
-}
-
-#w-node-d15ad7e4-48ea-305c-5f1b-2b7395acc2df-4259ee5f {
-    grid-area: span 1/span 1/span 1/span 1;
-    align-self: center
-}
-
-#w-node-_5b97ceea-46bf-3bc4-d7e2-17e6198bb85e-4259ee5f,
-#w-node-_5b97ceea-46bf-3bc4-d7e2-17e6198bb85f-4259ee5f,
-#w-node-_5b97ceea-46bf-3bc4-d7e2-17e6198bb860-4259ee5f {
-    grid-area: span 1/span 1/span 1/span 1
 }
 
 @font-face {
