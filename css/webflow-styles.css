@@ -1399,7 +1399,7 @@ textarea.w-select {
 .app-icon-box {
     /* background-color: #f0f0f0; */
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .w-lightbox-embed {
@@ -7983,9 +7983,14 @@ a {
 
 
 @media screen and (min-width:768px) {
+    .div-block-10 {
+      margin-top: 2rem;
+    }
+
     .app-icon-box {
         width: 45%;
         float: left;
+        margin-bottom: 3rem;
     }
 
     .paragraph-10 {
@@ -8069,8 +8074,8 @@ a {
 @media screen and (min-width:1024px) {
     .app-icon-box {
         width: 35%;
-        float: left;
     }
+
     .bg-left-effect {
         width: 25vw;
         top: 35vw;
