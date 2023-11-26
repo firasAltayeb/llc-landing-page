@@ -1,5 +1,5 @@
 // script.js
 document.getElementById("scrollButton").addEventListener("click", function() {
-    document.getElementById("kanjiAsap").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("ourApps").scrollIntoView({ behavior: 'smooth' });
   });
   

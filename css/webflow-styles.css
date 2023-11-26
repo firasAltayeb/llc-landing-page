@@ -156,19 +156,9 @@ input {
     line-height: normal
 }
 
-input[type=checkbox],
-input[type=radio] {
-    box-sizing: border-box;
-    padding: 0
-}
-
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     height: auto
-}
-
-input[type=search] {
-    -webkit-appearance: none
 }
 
 input[type=search]::-webkit-search-cancel-button,
@@ -1406,6 +1396,12 @@ textarea.w-select {
     overflow: hidden
 }
 
+.app-icon-box {
+    /* background-color: #f0f0f0; */
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
 .w-lightbox-embed {
     width: 100%;
     height: 100%;
@@ -2406,12 +2402,6 @@ a {
     position: relative
 }
 
-.div-block.contac-us-page,
-.div-block.contac-us-page-copy {
-    z-index: 6;
-    padding-top: 61px
-}
-
 .paragraph-4 {
     color: #fff;
     text-align: center;
@@ -2976,6 +2966,7 @@ a {
 }
 
 .div-block-10 {
+    justify-content: center;
     align-items: center;
     display: flex
 }
@@ -3150,21 +3141,6 @@ a {
     right: 0%
 }
 
-.heading-6 {
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(104deg, #fff, #e9516e);
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-top: 0;
-    margin-bottom: 17px;
-    font-size: 42px;
-    line-height: 49px
-}
-
-.paragraph-10 {
-    color: #fff
-}
-
 .brand {
     justify-content: center;
     align-items: center;
@@ -3226,21 +3202,20 @@ a {
     display: flex
 }
 
-.paragraph-10-copy {
+.paragraph-10 {
     color: #444a5c;
     margin-bottom: 20px;
     text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
-.heading-6-copy {
+.heading-6 {
     color: #02031d;
     -webkit-text-fill-color: inherit;
     background-clip: border-box;
     margin-top: 0;
     margin-bottom: 11px;
-    /* margin-left: 10px; */
     font-family: "1095 font", sans-serif;
     font-size: 42px;
     line-height: 49px
@@ -3283,40 +3258,12 @@ a {
     right: 0%
 }
 
-.hero__jobs__img_.is__rotating__right {
-    max-width: 140px;
-    bottom: 25%
-}
-
-.hero__jobs__img_.is__rotating__right.contact-us-page {
-    max-width: 109px;
-    top: 25%;
-    bottom: auto;
-    left: auto;
-    right: 0%
-}
-
 .hero__jobs__img_2 {
     position: absolute;
     top: 20%;
     bottom: auto;
     left: auto;
     right: 0%
-}
-
-.hero__jobs__img_2.is__rotating__right {
-    top: 35%;
-    right: 15%
-}
-
-.hero__jobs__img_2.is__rotating__right.contact-us-page {
-    max-width: 109px;
-    top: 12%;
-    right: 5%
-}
-
-.hero__jobs__img_2.is__rotating__right.jobs-page {
-    max-width: 141px
 }
 
 .hero__jobs__img_4 {
@@ -3327,11 +3274,6 @@ a {
     right: 15%
 }
 
-.hero__jobs__img_4.is__rotating__right {
-    background-image: none;
-    background-size: auto
-}
-
 .hero__jobs__img_5 {
     position: absolute;
     top: auto;
@@ -3340,52 +3282,12 @@ a {
     right: auto
 }
 
-.hero__jobs__img_5.is__rotating__right {
-    max-width: 138px;
-    left: 14%
-}
-
 .hero__jobs__img_6 {
     position: absolute;
     top: auto;
     bottom: 40%;
     left: -3%;
     right: auto
-}
-
-.hero__jobs__img_6.is__rotating__right {
-    left: 5%
-}
-
-.hero__jobs__img_6.is__rotating__right.contact-us-page {
-    max-width: 109px;
-    top: 25%;
-    bottom: auto;
-    left: 0%;
-    right: auto
-}
-
-.hero__jobs__img_6.is__rotating__right.jobs-page {
-    max-width: 134px
-}
-
-.hero__jobs__img_7 {
-    position: absolute;
-    top: 20%;
-    bottom: auto;
-    left: 15%;
-    right: auto
-}
-
-.hero__jobs__img_7.is__rotating__right {
-    max-width: 132px;
-    top: 30%
-}
-
-.hero__jobs__img_7.is__rotating__right.contact-us-page {
-    max-width: 109px;
-    top: 10%;
-    left: 5%
 }
 
 .lottie-animation-3 {
@@ -3708,15 +3610,6 @@ a {
 .working-at-codeway.whatsinitforyou.final {
     min-height: auto;
     margin-top: 50px
-}
-
-.div-block-15,
-.div-block-16 {
-    margin-bottom: 10px
-}
-
-.div-block-17 {
-    margin-bottom: 40px
 }
 
 .heading-12 {
@@ -4102,17 +3995,6 @@ a {
     display: none
 }
 
-.div-block-21 {
-    display: flex
-}
-
-.div-block-22 {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    display: flex
-}
-
 .section-4 {
     background-color: #f7f7f9;
     padding-top: 104px;
@@ -4244,22 +4126,6 @@ a {
     line-height: 24px
 }
 
-.div-block-25 {
-    background-color: #f7f7f9;
-    justify-content: center;
-    margin-top: -62px;
-    margin-bottom: 40px;
-    display: flex
-}
-
-.div-block-25.div-up {
-    margin-top: 0
-}
-
-.body {
-    background-color: #f7f7f9
-}
-
 .text-field {
     min-height: 87px;
     border-color: #fff;
@@ -4273,41 +4139,6 @@ a {
     background-image: url(../assets/bg-hero.png), linear-gradient(#02031d, #02031d);
     background-position: center;
     background-size: cover, auto;
-}
-
-.div-block-copy {
-    width: 100%;
-    max-width: 749px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
-    display: flex;
-    position: relative
-}
-
-.div-block-copy.contac-us-page {
-    z-index: 6;
-    padding-top: 61px
-}
-
-.div-block-copy.contac-us-page-copy {
-    z-index: 6;
-    padding-top: 0
-}
-
-.paragraph-9-copy {
-    max-width: 554px;
-    color: #fff;
-    text-align: center;
-    margin-top: 17px;
-    margin-bottom: 0;
-    font-size: 24px;
-    line-height: 29px
-}
-
-.paragraph-9-copy.contact-us-apge-copy {
-    line-height: 32px
 }
 
 .hero__img__wrap-copy {
@@ -5564,37 +5395,6 @@ a {
     bottom: auto;
     left: auto;
     right: 0%
-}
-
-.hero__jobs__img_2-copy.is__rotating__right {
-    top: 35%;
-    right: 15%
-}
-
-.hero__jobs__img_2-copy.is__rotating__right.contact-us-page {
-    max-width: 109px;
-    top: 12%;
-    right: 5%
-}
-
-.hero__jobs__img_2-copy.is__rotating__right.jobs-page {
-    max-width: 141px
-}
-
-.hero__jobs__img_2-copy.is__rotating__right-copy {
-    top: 35%;
-    right: 15%
-}
-
-.hero__jobs__img_2-copy.is__rotating__right-copy.contact-us-page {
-    max-width: 109px;
-    top: 12%;
-    right: 5%
-}
-
-.hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page,
-.hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page-copy {
-    max-width: 141px
 }
 
 .heading-8-copy {
@@ -6943,24 +6743,6 @@ a {
     display: none
 }
 
-.h2-copy {
-    color: #fff;
-    text-shadow: 4px 4px #000;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: Avengeance mightiest avenger, sans-serif;
-    font-size: 2em;
-    line-height: 36px
-}
-
-.h2-copy.h2-choose {
-    color: #a51840;
-    text-shadow: none;
-    padding-top: 10px
-}
-
 .cta-copy {
     float: none;
     color: #a5173f;
@@ -8201,6 +7983,16 @@ a {
 
 
 @media screen and (min-width:768px) {
+    .app-icon-box {
+        width: 45%;
+        float: left;
+    }
+
+    .paragraph-10 {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
     .bg-left-effect {
         width: 25vw;
         top: 30vw;
@@ -8275,6 +8067,10 @@ a {
 }
 
 @media screen and (min-width:1024px) {
+    .app-icon-box {
+        width: 35%;
+        float: left;
+    }
     .bg-left-effect {
         width: 25vw;
         top: 35vw;
@@ -8849,39 +8645,6 @@ a {
         display: inline-block
     }
 
-    .h1-copy {
-        font-size: 5rem;
-        line-height: 5rem
-    }
-
-    .h1-copy.type2,
-    .h1-copy.type2.subtitle {
-        line-height: 2rem
-    }
-
-    .h2-copy {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 2.5rem;
-        line-height: 2.5rem
-    }
-
-    .h2-copy.h2-choose {
-        margin-bottom: 0;
-        font-size: 2rem
-    }
-
-    .cta-copy {
-        max-width: none;
-        margin: 0 auto;
-        display: inline-block
-    }
-
-    .cta-copy.academy-button {
-        margin-top: 7vh;
-        display: none
-    }
-
     .italic-application-info-copy {
         margin-top: 40px;
         font-size: 20px
@@ -9267,22 +9030,6 @@ a {
         padding-top: 0
     }
 
-    .img__3__hero.is__rotating__right {
-        max-width: 120px;
-        top: 10%;
-        bottom: auto;
-        left: 10%;
-        right: auto
-    }
-
-    .img__4__hero.is__rotating__right {
-        max-width: 88.66px;
-        top: 15%;
-        bottom: auto;
-        left: auto;
-        right: 15%
-    }
-
     .img__6__hero {
         display: none
     }
@@ -9290,10 +9037,6 @@ a {
     .img__5__hero {
         top: 20%;
         right: -40%
-    }
-
-    .img__7__hero.is__rotating__right {
-        display: none
     }
 
     .headimg-2 {
@@ -9393,11 +9136,7 @@ a {
         margin-top: 12px;
         font-size: 22px
     }
-
-    .paragraph-10 {
-        text-align: left
-    }
-
+    
     .brand {
         z-index: 5
     }
@@ -9414,18 +9153,6 @@ a {
         max-width: none;
         margin-top: 20px;
         margin-bottom: 21px
-    }
-
-    .hero__jobs__img_.is__rotating__right.contact-us-page {
-        right: 10%
-    }
-
-    .hero__jobs__img_2.is__rotating__right.contact-us-page {
-        display: none
-    }
-
-    .hero__jobs__img_6.is__rotating__right.contact-us-page {
-        left: 10%
     }
 
     .lottie-animation-3 {
@@ -10056,11 +9783,6 @@ a {
     .text-block-9 {
         font-size: 22px;
         line-height: 28px
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right.contact-us-page,
-    .hero__jobs__img_2-copy.is__rotating__right-copy.contact-us-page {
-        display: none
     }
 
     .bold-text-4 {
@@ -10695,31 +10417,6 @@ a {
         line-height: 2rem
     }
 
-    .h2-copy {
-        max-width: 80vw;
-        text-align: center;
-        text-shadow: 3px 3px #000;
-        margin-top: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        display: inline-block
-    }
-
-    .h2-copy.h2-choose {
-        font-size: 1.5rem
-    }
-
-    .cta-copy {
-        max-width: none;
-        margin-bottom: 20px;
-        font-size: 1rem;
-        line-height: 15px;
-        display: inline-block;
-        position: static
-    }
-
     .italic-application-info-copy {
         margin-top: 10px;
         margin-bottom: 10px
@@ -11100,6 +10797,10 @@ a {
 }
 
 @media screen and (max-width:767px) {
+    .div-block-10 {
+        flex-direction: column;
+    }
+
     .hide-on-small {
         display: none;
     }
@@ -11324,36 +11025,6 @@ a {
         width: 45vw
     }
 
-    .img__1__hero.is__rotating__right {
-        max-width: 77px;
-        display: none
-    }
-
-    .img__2__hero.is__rotating__left {
-        max-width: 88.66px
-    }
-
-    .hero__img__wrap.contact-us-page {
-        z-index: auto
-    }
-
-    .img__3__hero.is__rotating__right {
-        max-width: 88.66px;
-        left: 0%
-    }
-
-    .img__4__hero.is__rotating__right {
-        max-width: 88.66px;
-        top: auto;
-        bottom: 0%;
-        left: auto;
-        right: 0%
-    }
-
-    .img__7__hero.is__rotating__right {
-        max-width: 88.66px
-    }
-
     .headimg-2 {
         text-align: center;
         margin-bottom: 5px;
@@ -11455,15 +11126,6 @@ a {
         padding-right: 0
     }
 
-    .heading-6 {
-        text-align: center;
-        font-size: 36px
-    }
-
-    .paragraph-10 {
-        text-align: center
-    }
-
     .heading-7 {
         font-size: 36px;
         line-height: 44px
@@ -11472,11 +11134,6 @@ a {
     .collection-item {
         margin-bottom: 11px;
         margin-right: 0
-    }
-
-    .heading-6-copy {
-        font-size: 36px;
-        line-height: 44px
     }
 
     .heading-8 {
@@ -11490,59 +11147,6 @@ a {
         color: #7e7e8c;
         font-size: 24px;
         line-height: 33px
-    }
-
-    .hero__jobs__img_.is__rotating__right {
-        display: none
-    }
-
-    .hero__jobs__img_.is__rotating__right.contact-us-page {
-        max-width: 85.82px;
-        display: block;
-        top: 7%;
-        right: 20%
-    }
-
-    .hero__jobs__img_2.is__rotating__right {
-        max-width: 98px;
-        top: 10%
-    }
-
-    .hero__jobs__img_2.is__rotating__right.contact-us-page {
-        display: none
-    }
-
-    .hero__jobs__img_2.is__rotating__right.jobs-page {
-        max-width: 98px;
-        right: 10%
-    }
-
-    .hero__jobs__img_4.is__rotating__right,
-    .hero__jobs__img_5.is__rotating__right {
-        display: none
-    }
-
-    .hero__jobs__img_6.is__rotating__right {
-        max-width: 98px;
-        top: 10%;
-        bottom: auto;
-        left: 10%;
-        right: auto
-    }
-
-    .hero__jobs__img_6.is__rotating__right.contact-us-page {
-        max-width: 98.57px;
-        top: 7%;
-        left: 20%
-    }
-
-    .hero__jobs__img_6.is__rotating__right.jobs-page {
-        max-width: 98px;
-        left: 15%
-    }
-
-    .hero__jobs__img_7.is__rotating__right {
-        display: none
     }
 
     .s_process {
@@ -12067,35 +11671,6 @@ a {
     .working-at-codeway-copy {
         padding-top: 50px;
         padding-bottom: 50px
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right {
-        max-width: 98px;
-        top: 10%
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right.contact-us-page {
-        display: none
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right.jobs-page {
-        max-width: 98px;
-        right: 10%
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right-copy {
-        max-width: 98px;
-        top: 10%
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right-copy.contact-us-page {
-        display: none
-    }
-
-    .hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page,
-    .hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page-copy {
-        max-width: 98px;
-        right: 10%
     }
 
     .heading-8-copy {
@@ -12750,11 +12325,6 @@ a {
         padding-right: 40px
     }
 
-    .div-block-6.right__spac {
-        padding-left: 40px;
-        padding-right: 0
-    }
-
     .s7_join__us_early {
         margin-bottom: -25px;
         padding-top: 80px;
@@ -12784,36 +12354,12 @@ a {
         width: 45vw
     }
 
-    .img__1__hero.is__rotating__right {
-        display: none
-    }
-
-    .img__2__hero.is__rotating__left {
-        max-width: 101.02px
-    }
-
-    .img__3__hero.is__rotating__right {
-        max-width: 101.02px;
-        bottom: 15%;
-        left: 1%
-    }
-
-    .img__4__hero.is__rotating__right {
-        max-width: 101.02px;
-        bottom: 15%;
-        right: 0%
-    }
-
     .img__6__hero {
         display: none
     }
 
     .img__5__hero {
         right: -20%
-    }
-
-    .img__7__hero.is__rotating__right {
-        max-width: 101.02px
     }
 
     .headimg-2 {
@@ -12888,26 +12434,6 @@ a {
         max-width: none;
         margin-top: -24px;
         margin-bottom: 28px
-    }
-
-    .hero__jobs__img_.is__rotating__right {
-        max-width: 90px
-    }
-
-    .hero__jobs__img_2.is__rotating__right.jobs-page {
-        max-width: 80px;
-        right: 0%
-    }
-
-    .hero__jobs__img_4.is__rotating__right,
-    .hero__jobs__img_5.is__rotating__right {
-        max-width: 90px
-    }
-
-    .hero__jobs__img_6.is__rotating__right.jobs-page,
-    .hero__jobs__img_7.is__rotating__right {
-        max-width: 90px;
-        left: 0%
     }
 
     .paragraph-12 {
@@ -13033,11 +12559,6 @@ a {
         margin-bottom: 54px
     }
 
-    .div-block-copy.contac-us-page,
-    .div-block-copy.contac-us-page-copy {
-        z-index: 6
-    }
-
     .hero-copy {
         min-height: auto;
         padding-top: 170px;
@@ -13068,10 +12589,6 @@ a {
     }
 
     .div-block-28 {
-        display: block
-    }
-
-    .div-block-28-copy {
         display: block
     }
 
@@ -13187,14 +12704,6 @@ a {
         grid-template-columns: 1fr 1fr;
         grid-auto-columns: 1fr;
         display: grid
-    }
-
-
-    .hero__jobs__img_2-copy.is__rotating__right.jobs-page,
-    .hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page,
-    .hero__jobs__img_2-copy.is__rotating__right-copy.jobs-page-copy {
-        max-width: 80px;
-        right: 0%
     }
 
     .heading-8-copy {
