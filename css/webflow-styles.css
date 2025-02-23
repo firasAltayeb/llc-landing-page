@@ -2542,7 +2542,8 @@ a {
 
 .app-icon-image {
     border-radius: 20px;
-    margin-bottom: 14px
+    margin-bottom: 14px;
+    border: 1px solid black; 
 }
 
 .store-icon-image {
